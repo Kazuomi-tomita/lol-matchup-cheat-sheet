@@ -1,0 +1,5 @@
+{
+  "championId": "ahri",
+  "keyCooldowns": ["E"],
+  "dangerCombos": [{ "combo": "E>Q", "effectiveRange": 1000 }]
+}

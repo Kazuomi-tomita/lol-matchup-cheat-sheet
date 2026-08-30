@@ -1,0 +1,15 @@
+{
+  "id": "ahri",
+  "name": "Ahri",
+  "aliases": ["アーリ"],
+  "attackRange": 550,
+  "spells": {
+    "Q": { "name": "Orb of Deception", "range": 900, "cooldown": [7], "width": 200, "castTime": 0.25, "projectileSpeed": 1550, "collision": "none", "targetType": "direction" },
+    "W": { "name": "Fox-Fire", "range": 700, "cooldown": [9, 8, 7, 6, 5], "targetType": "self" },
+    "E": { "name": "Charm", "range": 1000, "cooldown": [14], "width": 120, "castTime": 0.25, "projectileSpeed": 1550, "collision": "unit", "targetType": "direction" },
+    "R": { "name": "Spirit Rush", "range": 450, "cooldown": [130, 105, 80], "targetType": "direction" }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Ahri",
+  "patch": "sample-v0.1",
+  "retrievedAt": "2026-08-30"
+}

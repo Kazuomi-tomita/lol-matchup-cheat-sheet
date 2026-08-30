@@ -1,0 +1,5 @@
+{
+  "championId": "syndra",
+  "keyCooldowns": ["E"],
+  "dangerCombos": [{ "combo": "Q>E", "effectiveRange": 1300, "note": "Sphere stun threat" }]
+}
