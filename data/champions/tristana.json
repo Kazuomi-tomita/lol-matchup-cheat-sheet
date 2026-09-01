@@ -1,0 +1,68 @@
+{
+  "id": "tristana",
+  "name": "Tristana",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Rapid Fire",
+      "range": null,
+      "cooldown": [
+        20,
+        19,
+        18,
+        17,
+        16
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Rocket Jump",
+      "range": "900",
+      "cooldown": [
+        22,
+        20,
+        18,
+        16,
+        14
+      ],
+      "radius": 350,
+      "castTime": 0.25,
+      "projectileSpeed": 1100,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Explosive Charge",
+      "range": "550 – 700",
+      "cooldown": [
+        16,
+        15.5,
+        15,
+        14.5,
+        14
+      ],
+      "radius": 300,
+      "castTime": "100 / 2",
+      "projectileSpeed": 2400,
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Buster Shot",
+      "range": "550 – 700",
+      "cooldown": [
+        100
+      ],
+      "radius": 200,
+      "castTime": 0.25,
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Tristana",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

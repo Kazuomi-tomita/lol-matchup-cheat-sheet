@@ -1,0 +1,64 @@
+{
+  "id": "reksai",
+  "name": "Rek'Sai",
+  "aliases": [
+    "RekSai"
+  ],
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Queen's Wrath",
+      "range": null,
+      "cooldown": [
+        4,
+        3.5,
+        3,
+        2.5,
+        2
+      ],
+      "radius": 325,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Burrow",
+      "range": null,
+      "cooldown": [
+        4
+      ],
+      "radius": 1500,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Furious Bite",
+      "range": "225",
+      "cooldown": [
+        6
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Void Rush",
+      "range": "1500",
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "castTime": 0.25,
+      "projectileSpeed": 1400,
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Rek'Sai",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

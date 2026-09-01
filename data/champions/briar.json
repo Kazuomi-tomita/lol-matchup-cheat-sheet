@@ -1,0 +1,70 @@
+{
+  "id": "briar",
+  "name": "Briar",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Head Rush",
+      "range": "475",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ],
+      "castTime": "none",
+      "projectileSpeed": "600 / 600 / 600 / 600 / 600",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Blood Frenzy",
+      "range": "75 / 300 / 650",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "radius": 1000,
+      "castTime": "none",
+      "projectileSpeed": 1200,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Chilling Scream",
+      "range": "400 – 600",
+      "cooldown": [
+        16
+      ],
+      "width": 380,
+      "castTime": "||Recast time}}}}",
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": null
+    },
+    "R": {
+      "name": "Certain Death",
+      "range": 12000,
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "width": 320,
+      "radius": 1500,
+      "castTime": "||Time before dashing to target}}}}",
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Briar",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

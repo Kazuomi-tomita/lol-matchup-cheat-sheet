@@ -1,0 +1,67 @@
+{
+  "id": "akali",
+  "name": "Akali",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Five Point Strike",
+      "range": "500 / 120",
+      "cooldown": [
+        1.5
+      ],
+      "width": 350,
+      "castTime": "0.25 / 0.2313 / 0.2125 / 0.1937 / 0.175",
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Twilight Shroud",
+      "range": "250",
+      "cooldown": [
+        20,
+        19,
+        18,
+        17,
+        16
+      ],
+      "castTime": 0.25,
+      "projectileSpeed": "<!---->",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Shuriken Flip",
+      "range": "825",
+      "cooldown": [
+        16,
+        14.5,
+        13,
+        11.5,
+        10
+      ],
+      "width": 120,
+      "castTime": "|Initial cast}}||Recast}}}}",
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": null
+    },
+    "R": {
+      "name": "Perfect Execution",
+      "range": "675",
+      "cooldown": [
+        120,
+        105,
+        90,
+        75,
+        60
+      ],
+      "castTime": "|Initial cast}}|}}",
+      "projectileSpeed": "|}}",
+      "collision": null,
+      "targetType": null
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Akali",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

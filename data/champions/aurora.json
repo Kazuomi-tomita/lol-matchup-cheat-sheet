@@ -1,0 +1,72 @@
+{
+  "id": "aurora",
+  "name": "Aurora",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Twofold Hex",
+      "range": "900",
+      "cooldown": [
+        9,
+        8.5,
+        8,
+        7.5,
+        7
+      ],
+      "width": 180,
+      "castTime": "|Active}}|}}",
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": null
+    },
+    "W": {
+      "name": "Across the Veil",
+      "range": "300 / 450",
+      "cooldown": [
+        22,
+        21,
+        20,
+        19,
+        18
+      ],
+      "castTime": "none",
+      "projectileSpeed": 350,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "The Weirding",
+      "range": "825",
+      "cooldown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "width": 175,
+      "castTime": 0.35,
+      "projectileSpeed": 150,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Between Worlds",
+      "range": "25 / 250 / 450",
+      "cooldown": [
+        140,
+        130,
+        120,
+        110,
+        100
+      ],
+      "radius": 700,
+      "castTime": "none",
+      "collision": null,
+      "targetType": null
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Aurora",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

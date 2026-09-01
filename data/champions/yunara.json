@@ -1,0 +1,57 @@
+{
+  "id": "yunara",
+  "name": "Yunara",
+  "attackRange": 575,
+  "spells": {
+    "Q": {
+      "name": "Cultivation of Spirit",
+      "range": null,
+      "radius": 300,
+      "castTime": "none",
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Arc of Judgment",
+      "range": "1150",
+      "cooldown": [
+        10
+      ],
+      "width": 120,
+      "radius": 150,
+      "castTime": "0.45 / 0.3937 / 0.3375 / 0.2813 / 0.225",
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Kanmei's Steps",
+      "range": null,
+      "cooldown": [
+        9
+      ],
+      "radius": 2000,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Transcend One's Self",
+      "range": null,
+      "cooldown": [
+        100,
+        95,
+        90,
+        85,
+        80
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Yunara",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

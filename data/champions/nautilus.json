@@ -1,0 +1,68 @@
+{
+  "id": "nautilus",
+  "name": "Nautilus",
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Dredge Line",
+      "range": "1122 / 1100",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "width": 180,
+      "castTime": 0.25,
+      "projectileSpeed": 2000,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Titan's Wrath",
+      "range": null,
+      "cooldown": [
+        12
+      ],
+      "radius": 250,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Riptide",
+      "range": null,
+      "cooldown": [
+        7,
+        6.5,
+        6,
+        5.5,
+        5
+      ],
+      "radius": 0,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Depth Charge",
+      "range": "825",
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "radius": 225,
+      "castTime": 0.46,
+      "projectileSpeed": "275 / 466.67",
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Nautilus",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "anivia",
+  "name": "Anivia",
+  "attackRange": 600,
+  "spells": {
+    "Q": {
+      "name": "Flash Frost",
+      "range": "1100",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "width": 220,
+      "radius": 225,
+      "castTime": 0.25,
+      "projectileSpeed": 950,
+      "collision": "unit",
+      "targetType": "[[direction-targeted|direction]] / [[auto-targeted|auto]]"
+    },
+    "W": {
+      "name": "Crystallize",
+      "range": "1000 / 100",
+      "cooldown": [
+        17
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Frostbite",
+      "range": "600",
+      "cooldown": [
+        4
+      ],
+      "castTime": 0.25,
+      "projectileSpeed": 1600,
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Glacial Storm",
+      "range": "750",
+      "radius": 200,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "[[location-targeted|location]] / [[auto-targeted|auto]]"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Anivia",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "jarvan-iv",
+  "name": "Jarvan IV",
+  "aliases": [
+    "JarvanIV"
+  ],
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Dragon Strike",
+      "range": "65 / 785 / 850",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "width": 136,
+      "castTime": 0.4,
+      "projectileSpeed": "<!--)distance|Dash speed}}-->",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Golden Aegis",
+      "range": null,
+      "cooldown": [
+        9
+      ],
+      "radius": 600,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Demacian Standard",
+      "range": "860",
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ],
+      "radius": 200,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Cataclysm",
+      "range": "650",
+      "cooldown": [
+        120,
+        112.5,
+        105,
+        97.5,
+        90
+      ],
+      "radius": 1700,
+      "castTime": "none",
+      "projectileSpeed": "s|Dash speed varies based on cast distance}}",
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Jarvan%20IV",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

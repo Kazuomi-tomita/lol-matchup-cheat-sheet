@@ -1,0 +1,59 @@
+{
+  "id": "elise",
+  "name": "Elise",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Neurotoxin",
+      "range": "575",
+      "cooldown": [
+        6
+      ],
+      "castTime": 0.25,
+      "projectileSpeed": 2200,
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Volatile Spiderling",
+      "range": "950",
+      "cooldown": [
+        12
+      ],
+      "radius": 275,
+      "castTime": 0.125,
+      "projectileSpeed": "<!--X-->",
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Cocoon",
+      "range": "1100",
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ],
+      "width": 110,
+      "castTime": 0.25,
+      "projectileSpeed": 1600,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Spider Form",
+      "range": null,
+      "cooldown": [
+        3
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Elise",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

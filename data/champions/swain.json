@@ -1,0 +1,67 @@
+{
+  "id": "swain",
+  "name": "Swain",
+  "attackRange": 525,
+  "spells": {
+    "Q": {
+      "name": "Death's Hand",
+      "range": null,
+      "cooldown": [
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "radius": 725,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Vision of Empire",
+      "range": "5500 – 7500",
+      "cooldown": [
+        22,
+        21,
+        20,
+        19,
+        18
+      ],
+      "radius": 325,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Nevermove",
+      "range": "850",
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ],
+      "width": 180,
+      "castTime": 0.25,
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": null
+    },
+    "R": {
+      "name": "Demonic Ascension",
+      "range": null,
+      "cooldown": [
+        120
+      ],
+      "radius": 650,
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Swain",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "velkoz",
+  "name": "Vel'Koz",
+  "aliases": [
+    "Velkoz"
+  ],
+  "attackRange": 525,
+  "spells": {
+    "Q": {
+      "name": "Plasma Fission",
+      "range": "1100",
+      "cooldown": [
+        7
+      ],
+      "width": 100,
+      "castTime": 0.25,
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": null
+    },
+    "W": {
+      "name": "Void Rift",
+      "range": "1105 / 95",
+      "width": 175,
+      "castTime": "none",
+      "projectileSpeed": 1700,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Tectonic Disruption",
+      "range": "800",
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ],
+      "radius": 225,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Life Form Disintegration Ray",
+      "range": "1555",
+      "cooldown": [
+        100,
+        95,
+        90,
+        85,
+        80
+      ],
+      "width": 175,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "[[direction-targeted|direction]] / [[auto-targeted|auto]]"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Vel'Koz",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

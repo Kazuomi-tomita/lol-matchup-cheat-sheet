@@ -1,0 +1,71 @@
+{
+  "id": "xin-zhao",
+  "name": "Xin Zhao",
+  "aliases": [
+    "XinZhao"
+  ],
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Three Talon Strike",
+      "range": null,
+      "cooldown": [
+        7,
+        6.5,
+        6,
+        5.5,
+        5
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Wind Becomes Lightning",
+      "range": "1000 / 940",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "width": 80,
+      "radius": 275,
+      "castTime": 0.5,
+      "projectileSpeed": 6250,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Audacious Charge",
+      "range": "650 / 1100",
+      "cooldown": [
+        11
+      ],
+      "radius": 250,
+      "castTime": "none",
+      "projectileSpeed": 2500,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Crescent Guard",
+      "range": null,
+      "cooldown": [
+        120,
+        115,
+        110,
+        105,
+        100
+      ],
+      "radius": 500,
+      "castTime": 0.35,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Xin%20Zhao",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

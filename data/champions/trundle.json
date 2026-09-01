@@ -1,0 +1,64 @@
+{
+  "id": "trundle",
+  "name": "Trundle",
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Chomp",
+      "range": null,
+      "cooldown": [
+        3.5
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Frozen Domain",
+      "range": "750",
+      "cooldown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "radius": 775,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Pillar of Ice",
+      "range": "1000",
+      "cooldown": [
+        21,
+        19.5,
+        18,
+        16.5,
+        15
+      ],
+      "radius": 360,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Subjugate",
+      "range": "650",
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Trundle",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

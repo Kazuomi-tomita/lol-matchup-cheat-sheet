@@ -1,0 +1,65 @@
+{
+  "id": "dr-mundo",
+  "name": "Dr. Mundo",
+  "aliases": [
+    "DrMundo"
+  ],
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Infected Bonesaw",
+      "range": "1050 / 990",
+      "cooldown": [
+        4
+      ],
+      "width": 120,
+      "castTime": 0.25,
+      "projectileSpeed": 2000,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Heart Zapper",
+      "range": null,
+      "cooldown": [
+        17,
+        16.5,
+        16,
+        15.5,
+        15
+      ],
+      "radius": 325,
+      "castTime": "None",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Blunt Force Trauma",
+      "range": "650",
+      "cooldown": [
+        9,
+        8.25,
+        7.5,
+        6.75,
+        6
+      ],
+      "radius": 155,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Maximum Dosage",
+      "range": null,
+      "cooldown": [
+        120
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Dr.%20Mundo",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "sivir",
+  "name": "Sivir",
+  "attackRange": 500,
+  "spells": {
+    "Q": {
+      "name": "Boomerang Blade",
+      "range": "1250",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ],
+      "width": 180,
+      "castTime": "|attack speed}}",
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Ricochet",
+      "range": null,
+      "cooldown": [
+        12
+      ],
+      "radius": 500,
+      "castTime": "none",
+      "projectileSpeed": 1000,
+      "collision": "unit",
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Spell Shield",
+      "range": null,
+      "cooldown": [
+        24,
+        22.5,
+        21,
+        19.5,
+        18
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "On the Hunt",
+      "range": null,
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "radius": 1000,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Sivir",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

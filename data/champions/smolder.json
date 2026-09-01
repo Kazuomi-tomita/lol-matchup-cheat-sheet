@@ -1,0 +1,74 @@
+{
+  "id": "smolder",
+  "name": "Smolder",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Super Scorcher Breath",
+      "range": "AA",
+      "cooldown": [
+        5.5,
+        5,
+        4.5,
+        4,
+        3.5
+      ],
+      "castTime": "100 / 1 / 3",
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Achooo!",
+      "range": "1500",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "width": 115,
+      "radius": 385,
+      "castTime": 0.35,
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Flap, Flap, Flap",
+      "range": "700",
+      "cooldown": [
+        24,
+        22,
+        20,
+        18,
+        16
+      ],
+      "castTime": "none",
+      "projectileSpeed": 1800,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "MMOOOMMMM!",
+      "range": "4250 / 600",
+      "cooldown": [
+        120,
+        115,
+        110,
+        105,
+        100
+      ],
+      "width": 125,
+      "radius": 1000,
+      "castTime": 0.75,
+      "projectileSpeed": 1700,
+      "collision": "unit",
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Smolder",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

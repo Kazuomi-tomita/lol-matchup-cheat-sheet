@@ -1,0 +1,63 @@
+{
+  "id": "vex",
+  "name": "Vex",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Mistral Bolt",
+      "range": "1200",
+      "cooldown": [
+        8,
+        7,
+        6,
+        5,
+        4
+      ],
+      "width": 360,
+      "castTime": 0.15,
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Personal Space",
+      "range": null,
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "radius": 475,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Looming Darkness",
+      "range": "800",
+      "cooldown": [
+        12
+      ],
+      "radius": 200,
+      "castTime": 0.25,
+      "projectileSpeed": 1300,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Shadow Surge",
+      "range": "2000 – 3000",
+      "width": 260,
+      "radius": 650,
+      "castTime": "|Active}}|}}",
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": null
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Vex",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

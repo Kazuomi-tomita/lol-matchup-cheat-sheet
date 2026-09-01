@@ -1,0 +1,62 @@
+{
+  "id": "kogmaw",
+  "name": "Kog'Maw",
+  "aliases": [
+    "KogMaw"
+  ],
+  "attackRange": 500,
+  "spells": {
+    "Q": {
+      "name": "Caustic Spittle",
+      "range": "1200",
+      "cooldown": [
+        7
+      ],
+      "width": 140,
+      "castTime": "Basic attack timer",
+      "projectileSpeed": 1650,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Bio-Arcane Barrage",
+      "range": null,
+      "cooldown": [
+        17
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Void Ooze",
+      "range": "1360",
+      "cooldown": [
+        12
+      ],
+      "width": 240,
+      "castTime": 0.25,
+      "projectileSpeed": 1400,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Living Artillery",
+      "range": "1300 – 1800",
+      "cooldown": [
+        2,
+        1.75,
+        1.5,
+        1.25,
+        1
+      ],
+      "radius": 240,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Kog'Maw",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

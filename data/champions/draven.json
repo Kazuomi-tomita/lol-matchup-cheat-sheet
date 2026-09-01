@@ -1,0 +1,66 @@
+{
+  "id": "draven",
+  "name": "Draven",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Spinning Axe",
+      "range": null,
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Blood Rush",
+      "range": null,
+      "cooldown": [
+        12
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Stand Aside",
+      "range": "1100",
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "width": 260,
+      "castTime": 0.25,
+      "projectileSpeed": 1400,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Whirling Death",
+      "range": null,
+      "cooldown": [
+        100,
+        95,
+        90,
+        85,
+        80
+      ],
+      "width": 320,
+      "castTime": 0.5,
+      "projectileSpeed": 2000,
+      "collision": "unit",
+      "targetType": "[[direction-targeted|direction]] / [[auto-targeted|auto]]"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Draven",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "vayne",
+  "name": "Vayne",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Tumble",
+      "range": "300",
+      "cooldown": [
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "castTime": "none",
+      "projectileSpeed": 500,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Silver Bolts",
+      "range": null,
+      "collision": null,
+      "targetType": "passive"
+    },
+    "E": {
+      "name": "Condemn",
+      "range": "550",
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ],
+      "castTime": 0.25,
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Final Hour",
+      "range": null,
+      "cooldown": [
+        100,
+        92.5,
+        85,
+        77.5,
+        70
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Vayne",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

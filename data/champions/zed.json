@@ -1,0 +1,66 @@
+{
+  "id": "zed",
+  "name": "Zed",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Razor Shuriken",
+      "range": "925",
+      "cooldown": [
+        6
+      ],
+      "width": 100,
+      "castTime": 0.25,
+      "projectileSpeed": 1700,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Living Shadow",
+      "range": "325 / 650",
+      "cooldown": [
+        20,
+        19,
+        18,
+        17,
+        16
+      ],
+      "castTime": "none",
+      "projectileSpeed": 2500,
+      "collision": null,
+      "targetType": null
+    },
+    "E": {
+      "name": "Shadow Slash",
+      "range": null,
+      "cooldown": [
+        5,
+        4.5,
+        4,
+        3.5,
+        3
+      ],
+      "radius": 315,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Death Mark",
+      "range": "625",
+      "cooldown": [
+        120,
+        115,
+        110,
+        105,
+        100
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": null
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Zed",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

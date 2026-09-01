@@ -1,0 +1,65 @@
+{
+  "id": "samira",
+  "name": "Samira",
+  "attackRange": 500,
+  "spells": {
+    "Q": {
+      "name": "Flair",
+      "range": "340",
+      "cooldown": [
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "width": 120,
+      "castTime": 0.25,
+      "projectileSpeed": 2600,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Blade Whirl",
+      "range": null,
+      "cooldown": [
+        30,
+        28,
+        26,
+        24,
+        22
+      ],
+      "radius": 325,
+      "castTime": 0.1,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Wild Rush",
+      "range": "600",
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ],
+      "width": 300,
+      "castTime": "none",
+      "projectileSpeed": 1600,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Inferno Trigger",
+      "range": null,
+      "radius": 600,
+      "castTime": "none",
+      "collision": "unit",
+      "targetType": "proximity"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Samira",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

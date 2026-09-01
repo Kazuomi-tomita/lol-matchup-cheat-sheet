@@ -1,0 +1,68 @@
+{
+  "id": "fiddlesticks",
+  "name": "Fiddlesticks",
+  "attackRange": 480,
+  "spells": {
+    "Q": {
+      "name": "Terrify",
+      "range": "575",
+      "cooldown": [
+        15,
+        14.5,
+        14,
+        13.5,
+        13
+      ],
+      "castTime": 0.35,
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Bountiful Harvest",
+      "range": null,
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ],
+      "radius": 650,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "proximity"
+    },
+    "E": {
+      "name": "Reap",
+      "range": "850",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "castTime": 0.4,
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Crowstorm",
+      "range": "800",
+      "cooldown": [
+        140,
+        125,
+        110,
+        95,
+        80
+      ],
+      "radius": 600,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "ekko",
+  "name": "Ekko",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Timewinder",
+      "range": "1100",
+      "cooldown": [
+        9,
+        8.5,
+        8,
+        7.5,
+        7
+      ],
+      "radius": 160,
+      "castTime": 0.25,
+      "projectileSpeed": "||}}",
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Parallel Convergence",
+      "range": "1600",
+      "cooldown": [
+        22,
+        20,
+        18,
+        16,
+        14
+      ],
+      "radius": 375,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Phase Dive",
+      "range": "325 / 550",
+      "cooldown": [
+        9,
+        8.5,
+        8,
+        7.5,
+        7
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Chronobreak",
+      "range": null,
+      "cooldown": [
+        110,
+        95,
+        80,
+        65,
+        50
+      ],
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Ekko",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

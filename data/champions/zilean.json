@@ -1,0 +1,63 @@
+{
+  "id": "zilean",
+  "name": "Zilean",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Time Bomb",
+      "range": "900",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ],
+      "radius": 350,
+      "castTime": 0.25,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Rewind",
+      "range": null,
+      "cooldown": [
+        14,
+        12,
+        10,
+        8,
+        6
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Time Warp",
+      "range": "550",
+      "cooldown": [
+        15
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Chronoshift",
+      "range": "900",
+      "cooldown": [
+        120,
+        105,
+        90,
+        75,
+        60
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Zilean",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "nami",
+  "name": "Nami",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Aqua Prison",
+      "range": "850",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "radius": 200,
+      "castTime": 0.25,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Ebb and Flow",
+      "range": "725",
+      "cooldown": [
+        10
+      ],
+      "radius": 800,
+      "castTime": 0.25,
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "E": {
+      "name": "Tidecaller's Blessing",
+      "range": "800",
+      "cooldown": [
+        11
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Tidal Wave",
+      "range": "2750",
+      "cooldown": [
+        120,
+        110,
+        100
+      ],
+      "width": 500,
+      "radius": 750,
+      "castTime": 0.5,
+      "projectileSpeed": 850,
+      "collision": "unit",
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Nami",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "yone",
+  "name": "Yone",
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Mortal Steel",
+      "range": "450 / 1050",
+      "width": 80,
+      "castTime": "|attack speed}}|Both thrust and whirlwind cast times}}",
+      "projectileSpeed": 1500,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Spirit Cleave",
+      "range": null,
+      "radius": 600,
+      "castTime": "|attack speed}}",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Soul Unbound",
+      "range": "300",
+      "castTime": "||Recast}}}}",
+      "projectileSpeed": 1200,
+      "collision": null,
+      "targetType": null
+    },
+    "R": {
+      "name": "Fate Sealed",
+      "range": "1000",
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "width": 225,
+      "castTime": 0.75,
+      "collision": null,
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Yone",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

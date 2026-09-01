@@ -6,6 +6,7 @@
   "author": "LoL Matchup Viewer contributors",
   "license": "MIT",
   "scripts": {
+    "sync:champions": "node scripts/sync-champions.mjs",
     "dev": "tsc -p tsconfig.main.json && concurrently -k \"npm:dev:main\" \"npm:dev:renderer\" \"npm:dev:electron\"",
     "dev:main": "tsc -p tsconfig.main.json --watch",
     "dev:renderer": "vite --host 127.0.0.1",

@@ -1,0 +1,65 @@
+{
+  "id": "rengar",
+  "name": "Rengar",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Savagery",
+      "range": null,
+      "cooldown": [
+        6,
+        5.5,
+        5,
+        4.5,
+        4
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Battle Roar",
+      "range": null,
+      "cooldown": [
+        16,
+        14.5,
+        13,
+        11.5,
+        10
+      ],
+      "radius": 450,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Bola Strike",
+      "range": "1000",
+      "cooldown": [
+        10
+      ],
+      "width": 140,
+      "castTime": "|While not leaping with Unseen Predator}}|}}",
+      "projectileSpeed": 1500,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Thrill of the Hunt",
+      "range": null,
+      "cooldown": [
+        100,
+        95,
+        90,
+        85,
+        80
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Rengar",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

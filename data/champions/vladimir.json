@@ -1,0 +1,67 @@
+{
+  "id": "vladimir",
+  "name": "Vladimir",
+  "attackRange": 450,
+  "spells": {
+    "Q": {
+      "name": "Transfusion",
+      "range": "600",
+      "cooldown": [
+        9,
+        7.9,
+        6.8,
+        5.7,
+        4.6
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Sanguine Pool",
+      "range": null,
+      "cooldown": [
+        28,
+        25,
+        22,
+        19,
+        16
+      ],
+      "radius": 350,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Tides of Blood",
+      "range": null,
+      "cooldown": [
+        13,
+        11,
+        9,
+        7,
+        5
+      ],
+      "width": 120,
+      "radius": 600,
+      "castTime": "none",
+      "projectileSpeed": 4000,
+      "collision": "unit",
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Hemoplague",
+      "range": "625",
+      "cooldown": [
+        120
+      ],
+      "radius": 375,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Vladimir",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

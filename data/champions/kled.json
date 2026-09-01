@@ -1,0 +1,62 @@
+{
+  "id": "kled",
+  "name": "Kled",
+  "attackRange": 250,
+  "spells": {
+    "Q": {
+      "name": "Bear Trap on a Rope",
+      "range": "800 / 60",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "width": 90,
+      "castTime": 0.25,
+      "projectileSpeed": 1600,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Violent Tendencies",
+      "range": null,
+      "collision": null,
+      "targetType": "passive"
+    },
+    "E": {
+      "name": "Jousting",
+      "range": "550 / 765",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ],
+      "castTime": "none",
+      "projectileSpeed": 600,
+      "collision": null,
+      "targetType": "[[direction-targeted|direction]] / [[auto-targeted|auto]]"
+    },
+    "R": {
+      "name": "Chaaaaaaaarge!!!",
+      "range": "3500 – 4500",
+      "cooldown": [
+        140,
+        132.5,
+        125,
+        117.5,
+        110
+      ],
+      "castTime": "none",
+      "projectileSpeed": "|}}",
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Kled",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

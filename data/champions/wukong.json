@@ -1,0 +1,72 @@
+{
+  "id": "wukong",
+  "name": "Wukong",
+  "aliases": [
+    "MonkeyKing"
+  ],
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Crushing Blow",
+      "range": null,
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Warrior Trickster",
+      "range": "100 / 300",
+      "cooldown": [
+        22,
+        21,
+        20,
+        19,
+        18
+      ],
+      "castTime": "none",
+      "projectileSpeed": 900,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Nimbus Strike",
+      "range": "650",
+      "cooldown": [
+        10,
+        9.25,
+        8.5,
+        7.75,
+        7
+      ],
+      "radius": 187.5,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Cyclone",
+      "range": null,
+      "cooldown": [
+        130,
+        120,
+        110,
+        100,
+        90
+      ],
+      "radius": 315,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Wukong",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

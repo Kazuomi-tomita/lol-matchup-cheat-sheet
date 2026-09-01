@@ -1,0 +1,60 @@
+{
+  "id": "jayce",
+  "name": "Jayce",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "To the Skies!",
+      "range": "600",
+      "cooldown": [
+        16,
+        13.5,
+        11,
+        8.5,
+        6
+      ],
+      "radius": 300,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Lightning Field",
+      "range": null,
+      "cooldown": [
+        10
+      ],
+      "radius": 350,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Thundering Blow",
+      "range": "240",
+      "cooldown": [
+        20,
+        17.5,
+        15,
+        12.5,
+        10
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Transform Mercury Cannon",
+      "range": null,
+      "cooldown": [
+        6
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Jayce",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

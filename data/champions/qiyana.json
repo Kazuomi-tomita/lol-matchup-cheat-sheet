@@ -1,0 +1,61 @@
+{
+  "id": "qiyana",
+  "name": "Qiyana",
+  "attackRange": 150,
+  "spells": {
+    "Q": {
+      "name": "Edge of Ixtal",
+      "range": "525 / 40",
+      "cooldown": [
+        7
+      ],
+      "width": 140,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Terrashape",
+      "range": "1100",
+      "cooldown": [
+        7
+      ],
+      "radius": 366,
+      "castTime": "none",
+      "projectileSpeed": "440 / 100",
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Audacity",
+      "range": "650",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "castTime": "none",
+      "projectileSpeed": "600 / 1200",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Supreme Display of Talent",
+      "range": "875",
+      "cooldown": [
+        120
+      ],
+      "width": 280,
+      "radius": 11000,
+      "castTime": 0.25,
+      "projectileSpeed": "|}}",
+      "collision": null,
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Qiyana",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

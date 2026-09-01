@@ -1,0 +1,61 @@
+{
+  "id": "taliyah",
+  "name": "Taliyah",
+  "attackRange": 525,
+  "spells": {
+    "Q": {
+      "name": "Threaded Volley",
+      "range": "1000 / 50",
+      "cooldown": [
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "width": 200,
+      "radius": 175,
+      "castTime": 0.25,
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Seismic Shove",
+      "range": "900",
+      "cooldown": [
+        14,
+        12.5,
+        11,
+        9.5,
+        8
+      ],
+      "radius": 225,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "vector"
+    },
+    "E": {
+      "name": "Unraveled Earth",
+      "range": null,
+      "cooldown": [
+        14
+      ],
+      "radius": 800,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Weaver's Wall",
+      "range": "2500 – 6500",
+      "castTime": "none",
+      "projectileSpeed": "}}",
+      "collision": "unit",
+      "targetType": null
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Taliyah",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

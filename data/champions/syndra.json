@@ -1,15 +1,63 @@
 {
   "id": "syndra",
   "name": "Syndra",
-  "aliases": ["シンドラ"],
   "attackRange": 550,
   "spells": {
-    "Q": { "name": "Dark Sphere", "range": 800, "cooldown": [7], "radius": 200, "castTime": 0.6, "collision": "none", "targetType": "location" },
-    "W": { "name": "Force of Will", "range": 950, "cooldown": [12, 11, 10, 9, 8], "radius": 225, "targetType": "location" },
-    "E": { "name": "Scatter the Weak", "range": 700, "cooldown": [17, 16.5, 16, 15.5, 15], "targetType": "direction" },
-    "R": { "name": "Unleashed Power", "range": 675, "cooldown": [100, 90, 80], "targetType": "unit" }
+    "Q": {
+      "name": "Dark Sphere",
+      "range": "800",
+      "cooldown": [
+        7
+      ],
+      "radius": 210,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Force of Will",
+      "range": "925 / 950 / 500",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "radius": 225,
+      "castTime": "none",
+      "collision": null,
+      "targetType": null
+    },
+    "E": {
+      "name": "Scatter the Weak",
+      "range": "700 / 800 / 1300 / 1200 / 100",
+      "cooldown": [
+        15
+      ],
+      "width": 120,
+      "castTime": 0.25,
+      "projectileSpeed": "|}}",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Unleashed Power",
+      "range": "675",
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "radius": 3000,
+      "castTime": 0.25,
+      "collision": "unit",
+      "targetType": "unit"
+    }
   },
   "source": "https://wiki.leagueoflegends.com/en-us/Syndra",
-  "patch": "sample-v0.1",
+  "patch": "current",
   "retrievedAt": "2026-08-30"
 }

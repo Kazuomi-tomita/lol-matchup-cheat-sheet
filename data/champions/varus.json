@@ -1,0 +1,60 @@
+{
+  "id": "varus",
+  "name": "Varus",
+  "attackRange": 575,
+  "spells": {
+    "Q": {
+      "name": "Piercing Arrow",
+      "range": "895 – 1595",
+      "width": 140,
+      "castTime": "none",
+      "projectileSpeed": 1900,
+      "collision": "unit",
+      "targetType": "[[auto-targeted|auto]] / [[direction-targeted|direction]]"
+    },
+    "W": {
+      "name": "Blighted Quiver",
+      "range": null,
+      "cooldown": [
+        40
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Hail of Arrows",
+      "range": "925",
+      "cooldown": [
+        18,
+        16,
+        14,
+        12,
+        10
+      ],
+      "radius": 300,
+      "castTime": 0.2419,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Chain of Corruption",
+      "range": "1370",
+      "cooldown": [
+        100,
+        90,
+        80,
+        70,
+        60
+      ],
+      "width": 240,
+      "castTime": 0.2419,
+      "projectileSpeed": 1500,
+      "collision": "unit",
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Varus",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

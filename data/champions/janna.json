@@ -1,0 +1,66 @@
+{
+  "id": "janna",
+  "name": "Janna",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Howling Gale",
+      "range": "1100 – 1000",
+      "cooldown": [
+        14
+      ],
+      "width": 240,
+      "castTime": "none",
+      "projectileSpeed": "880 / 1012 / 1144 / 1276 / 1408",
+      "collision": "unit",
+      "targetType": "[[direction-targeted|direction]] / [[auto-targeted|auto]]"
+    },
+    "W": {
+      "name": "Zephyr",
+      "range": "550",
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ],
+      "castTime": 0.245,
+      "projectileSpeed": 1600,
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "E": {
+      "name": "Eye of the Storm",
+      "range": "800",
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Monsoon",
+      "range": null,
+      "cooldown": [
+        130,
+        122.5,
+        115,
+        107.5,
+        100
+      ],
+      "radius": 700,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Janna",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

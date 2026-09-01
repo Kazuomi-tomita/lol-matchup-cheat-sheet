@@ -1,0 +1,67 @@
+{
+  "id": "quinn",
+  "name": "Quinn",
+  "attackRange": 525,
+  "spells": {
+    "Q": {
+      "name": "Blinding Assault",
+      "range": "1050",
+      "cooldown": [
+        11,
+        10.5,
+        10,
+        9.5,
+        9
+      ],
+      "width": 120,
+      "radius": 210,
+      "castTime": 0.25,
+      "projectileSpeed": 1550,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Heightened Senses",
+      "range": null,
+      "cooldown": [
+        50,
+        45,
+        40,
+        35,
+        30
+      ],
+      "radius": 2100,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Vault",
+      "range": "600",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "castTime": "none",
+      "projectileSpeed": "|}}",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Behind Enemy Lines",
+      "range": null,
+      "cooldown": [
+        3
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Quinn",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

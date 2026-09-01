@@ -1,0 +1,74 @@
+{
+  "id": "renata-glasc",
+  "name": "Renata Glasc",
+  "aliases": [
+    "Renata"
+  ],
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Handshake",
+      "range": "900 / 275",
+      "cooldown": [
+        16
+      ],
+      "width": 140,
+      "castTime": 0.25,
+      "projectileSpeed": 1450,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Bailout",
+      "range": "800",
+      "cooldown": [
+        28,
+        27,
+        26,
+        25,
+        24
+      ],
+      "radius": 1300,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "E": {
+      "name": "Loyalty Program",
+      "range": "800",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "width": 220,
+      "radius": 325,
+      "castTime": 0.25,
+      "projectileSpeed": 1450,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Hostile Takeover",
+      "range": "2000",
+      "cooldown": [
+        150,
+        140,
+        130,
+        120,
+        110
+      ],
+      "width": 500,
+      "radius": 1000,
+      "castTime": 0.75,
+      "projectileSpeed": "650 / 1000",
+      "collision": "unit",
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Renata%20Glasc",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

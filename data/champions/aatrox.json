@@ -1,0 +1,70 @@
+{
+  "id": "aatrox",
+  "name": "Aatrox",
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "The Darkin Blade",
+      "range": null,
+      "cooldown": [
+        14,
+        12,
+        10,
+        8,
+        6
+      ],
+      "castTime": 0.6,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Infernal Chains",
+      "range": "825 / 765",
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ],
+      "width": 160,
+      "castTime": 0.25,
+      "projectileSpeed": 1800,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Umbral Dash",
+      "range": "75 / 300 / 500",
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "castTime": "none",
+      "projectileSpeed": "|}}",
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "World Ender",
+      "range": null,
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "radius": 600,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Aatrox",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

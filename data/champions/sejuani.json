@@ -1,0 +1,68 @@
+{
+  "id": "sejuani",
+  "name": "Sejuani",
+  "attackRange": 150,
+  "spells": {
+    "Q": {
+      "name": "Arctic Assault",
+      "range": "650",
+      "cooldown": [
+        18,
+        16.5,
+        15,
+        13.5,
+        12
+      ],
+      "castTime": "none",
+      "projectileSpeed": 1000,
+      "collision": null,
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Winter's Wrath",
+      "range": "600",
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "width": 150,
+      "castTime": 1,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Permafrost",
+      "range": "600",
+      "cooldown": [
+        1.5
+      ],
+      "radius": 1100,
+      "castTime": 0.25,
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Glacial Prison",
+      "range": "1300",
+      "cooldown": [
+        120,
+        112.5,
+        105,
+        97.5,
+        90
+      ],
+      "width": 240,
+      "radius": 450,
+      "castTime": 0.25,
+      "projectileSpeed": 1600,
+      "collision": "unit",
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Sejuani",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

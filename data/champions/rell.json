@@ -1,0 +1,67 @@
+{
+  "id": "rell",
+  "name": "Rell",
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Shattering Strike",
+      "range": "520 / 220",
+      "cooldown": [
+        11,
+        10.5,
+        10,
+        9.5,
+        9
+      ],
+      "width": 150,
+      "castTime": 0.4,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Ferromancy: Crash Down",
+      "range": "100 / 400",
+      "cooldown": [
+        10
+      ],
+      "radius": 180,
+      "castTime": 0.625,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Full Tilt",
+      "range": "1200",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "radius": 300,
+      "castTime": "none",
+      "collision": null,
+      "targetType": null
+    },
+    "R": {
+      "name": "Magnet Storm",
+      "range": null,
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "radius": 450,
+      "castTime": 0.25,
+      "projectileSpeed": 300,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Rell",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "skarner",
+  "name": "Skarner",
+  "attackRange": 150,
+  "spells": {
+    "Q": {
+      "name": "Shattered Earth",
+      "range": null,
+      "cooldown": [
+        8,
+        6.75,
+        5.5,
+        4.25,
+        3
+      ],
+      "radius": 300,
+      "castTime": 0.35,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Seismic Bastion",
+      "range": null,
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "radius": 600,
+      "castTime": 0.3,
+      "projectileSpeed": 1650,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Ixtal's Impact",
+      "range": null,
+      "cooldown": [
+        22,
+        21,
+        20,
+        19,
+        18
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Impale",
+      "range": "-50 – 625",
+      "cooldown": [
+        120,
+        112.5,
+        105,
+        97.5,
+        90
+      ],
+      "width": 350,
+      "castTime": 0.75,
+      "collision": null,
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Skarner",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

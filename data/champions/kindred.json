@@ -1,0 +1,59 @@
+{
+  "id": "kindred",
+  "name": "Kindred",
+  "attackRange": 500,
+  "spells": {
+    "Q": {
+      "name": "Dance of Arrows",
+      "range": "300 / 400",
+      "cooldown": [
+        9
+      ],
+      "castTime": "none",
+      "projectileSpeed": 500,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Wolf's Frenzy",
+      "range": "500",
+      "cooldown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "radius": 800,
+      "castTime": "none",
+      "projectileSpeed": 1400,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Mounting Dread",
+      "range": "500 – 750",
+      "cooldown": [
+        14,
+        12.5,
+        11,
+        9.5,
+        8
+      ],
+      "castTime": 0.25,
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Lamb's Respite",
+      "range": null,
+      "radius": 535,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Kindred",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

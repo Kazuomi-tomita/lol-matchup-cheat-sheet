@@ -29,4 +29,12 @@ Windowsインストーラーは `release/` に生成されます。利用者側�
 
 現在同梱している Ahri / Syndra はスキーマと画面確認用のサンプルです。実運用前に対象パッチの値へ更新してください。`matchup-meta` は自動正規化の対象にせず、機械更新から保護します。
 
+League of Legends Wiki から全チャンピオンの基本攻撃射程と Q/W/E/R の射程・CDなどを同期できます。
+
+```bash
+npm run sync:champions
+```
+
+取得した Wiki 原文は `data/raw/lol-wiki/` にキャッシュされます。再取得する場合は `npm run sync:champions -- --refresh` を使います。同期処理は `data/matchup-meta/` を変更しません。
+
 日本語クライアントが返すローカライズ済みチャンピオン名は、各チャンピオンJSONの `aliases` で英語IDへ対応付けます。

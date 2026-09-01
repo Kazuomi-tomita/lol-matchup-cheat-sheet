@@ -1,0 +1,62 @@
+{
+  "id": "volibear",
+  "name": "Volibear",
+  "attackRange": 150,
+  "spells": {
+    "Q": {
+      "name": "Thundering Smash",
+      "range": null,
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ],
+      "radius": 2000,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Frenzied Maul",
+      "range": "325 / 350",
+      "cooldown": [
+        5
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "E": {
+      "name": "Sky Splitter",
+      "range": "1200",
+      "cooldown": [
+        16
+      ],
+      "radius": 325,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Stormbringer",
+      "range": "700",
+      "cooldown": [
+        160,
+        147.5,
+        135,
+        122.5,
+        110
+      ],
+      "radius": 300,
+      "castTime": "none",
+      "projectileSpeed": 750,
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Volibear",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

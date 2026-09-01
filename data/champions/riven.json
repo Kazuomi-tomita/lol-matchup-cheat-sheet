@@ -1,0 +1,63 @@
+{
+  "id": "riven",
+  "name": "Riven",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Broken Wings",
+      "range": null,
+      "cooldown": [
+        13
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": null
+    },
+    "W": {
+      "name": "Ki Burst",
+      "range": null,
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "radius": 300,
+      "castTime": "|see notes}}",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Valor",
+      "range": "250",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Blade of the Exile",
+      "range": null,
+      "cooldown": [
+        120,
+        105,
+        90,
+        75,
+        60
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Riven",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

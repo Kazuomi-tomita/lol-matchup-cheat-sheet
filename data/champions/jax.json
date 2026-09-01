@@ -1,0 +1,68 @@
+{
+  "id": "jax",
+  "name": "Jax",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Leap Strike",
+      "range": "700",
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ],
+      "castTime": "false",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Empower",
+      "range": null,
+      "cooldown": [
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Counter Strike",
+      "range": null,
+      "cooldown": [
+        17,
+        15,
+        13,
+        11,
+        9
+      ],
+      "radius": 375,
+      "castTime": "None",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Grandmaster-at-Arms",
+      "range": null,
+      "cooldown": [
+        110,
+        105,
+        100,
+        95,
+        90
+      ],
+      "radius": 375,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Jax",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

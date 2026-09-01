@@ -1,0 +1,66 @@
+{
+  "id": "corki",
+  "name": "Corki",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Phosphorus Bomb",
+      "range": "825",
+      "cooldown": [
+        9,
+        8.5,
+        8,
+        7.5,
+        7
+      ],
+      "radius": 275,
+      "castTime": 0.25,
+      "projectileSpeed": 1100,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Valkyrie",
+      "range": "300 / 600",
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ],
+      "radius": 200,
+      "castTime": "none",
+      "projectileSpeed": 650,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Gatling Gun",
+      "range": null,
+      "cooldown": [
+        12
+      ],
+      "radius": 690,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Missile Barrage",
+      "range": "1300 / 1500",
+      "cooldown": [
+        2
+      ],
+      "width": 80,
+      "radius": 150,
+      "castTime": 0.175,
+      "projectileSpeed": 2000,
+      "collision": "unit",
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Corki",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

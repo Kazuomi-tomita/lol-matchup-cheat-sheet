@@ -1,0 +1,71 @@
+{
+  "id": "xayah",
+  "name": "Xayah",
+  "attackRange": 525,
+  "spells": {
+    "Q": {
+      "name": "Double Daggers",
+      "range": "1100",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ],
+      "width": 100,
+      "castTime": "3 / 0.25 / 0.033 / 7 / 0.033 / 6 / 0.033 / 5 / 0.033 / 4 / 0.1 / 1 / 0 / 27.15 / 74.29 / 121.43 / 168.58 / 214.3 / 0.25 / 0.07 / 100 / 60 / 214.3",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Deadly Plumage",
+      "range": null,
+      "cooldown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "castTime": "none",
+      "projectileSpeed": 3000,
+      "collision": "unit",
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Bladecaller",
+      "range": null,
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "width": 160,
+      "castTime": "none",
+      "projectileSpeed": 4000,
+      "collision": "unit",
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Featherstorm",
+      "range": null,
+      "cooldown": [
+        140,
+        130,
+        120,
+        110,
+        100
+      ],
+      "radius": 1060,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Xayah",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

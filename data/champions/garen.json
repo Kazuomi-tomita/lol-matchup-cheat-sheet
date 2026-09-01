@@ -1,0 +1,63 @@
+{
+  "id": "garen",
+  "name": "Garen",
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Decisive Strike",
+      "range": null,
+      "cooldown": [
+        8
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Courage",
+      "range": null,
+      "cooldown": [
+        22,
+        19.5,
+        17,
+        14.5,
+        12
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Judgment",
+      "range": null,
+      "cooldown": [
+        9,
+        8.25,
+        7.5,
+        6.75,
+        6
+      ],
+      "radius": 325,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Demacian Justice",
+      "range": "400",
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "castTime": 0.435,
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Garen",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

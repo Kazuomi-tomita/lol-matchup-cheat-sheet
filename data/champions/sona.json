@@ -1,0 +1,59 @@
+{
+  "id": "sona",
+  "name": "Sona",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Hymn of Valor",
+      "range": null,
+      "cooldown": [
+        8
+      ],
+      "radius": 825,
+      "castTime": "none",
+      "projectileSpeed": 1300,
+      "collision": "unit",
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Aria of Perseverance",
+      "range": null,
+      "cooldown": [
+        10
+      ],
+      "radius": 1000,
+      "castTime": "none",
+      "projectileSpeed": 1300,
+      "collision": "unit",
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Song of Celerity",
+      "range": null,
+      "cooldown": [
+        14
+      ],
+      "radius": 400,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Crescendo",
+      "range": "1000",
+      "cooldown": [
+        140,
+        120,
+        100
+      ],
+      "width": 280,
+      "castTime": 0.25,
+      "projectileSpeed": 2400,
+      "collision": "unit",
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Sona",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

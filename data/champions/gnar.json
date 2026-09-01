@@ -1,0 +1,62 @@
+{
+  "id": "gnar",
+  "name": "Gnar",
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Boomerang Throw",
+      "range": "1125 / 3000",
+      "cooldown": [
+        16,
+        14.5,
+        13,
+        11.5,
+        10
+      ],
+      "width": 110,
+      "castTime": 0.25,
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Hyper",
+      "range": null,
+      "collision": null,
+      "targetType": "passive"
+    },
+    "E": {
+      "name": "Hop",
+      "range": "475",
+      "cooldown": [
+        22,
+        19.5,
+        17,
+        14.5,
+        12
+      ],
+      "radius": 150,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "GNAR!",
+      "range": null,
+      "cooldown": [
+        90,
+        75,
+        60,
+        45,
+        30
+      ],
+      "radius": 475,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Gnar",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

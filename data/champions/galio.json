@@ -1,0 +1,73 @@
+{
+  "id": "galio",
+  "name": "Galio",
+  "attackRange": 150,
+  "spells": {
+    "Q": {
+      "name": "Winds of War",
+      "range": "825",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "width": 120,
+      "radius": 150,
+      "castTime": 0.25,
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Shield of Durand",
+      "range": null,
+      "cooldown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "radius": 175,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Justice Punch",
+      "range": "250 / 650",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "width": 400,
+      "castTime": 0.4,
+      "projectileSpeed": 2300,
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Hero's Entrance",
+      "range": "4000 / 4750 / 5500",
+      "cooldown": [
+        180,
+        170,
+        160,
+        150,
+        140
+      ],
+      "radius": 650,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Galio",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

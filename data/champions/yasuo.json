@@ -1,0 +1,57 @@
+{
+  "id": "yasuo",
+  "name": "Yasuo",
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Steel Tempest",
+      "range": "450 / 1150",
+      "width": 80,
+      "radius": 215,
+      "projectileSpeed": 1200,
+      "collision": null,
+      "targetType": null
+    },
+    "W": {
+      "name": "Wind Wall",
+      "range": "350 / 50 / 450",
+      "cooldown": [
+        25,
+        23,
+        21,
+        19,
+        17
+      ],
+      "radius": 300,
+      "castTime": 0.013,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Sweeping Blade",
+      "range": "475",
+      "castTime": "none",
+      "projectileSpeed": "750 / 60",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Last Breath",
+      "range": "1400",
+      "cooldown": [
+        70,
+        60,
+        50,
+        40,
+        30
+      ],
+      "radius": 400,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "[[unit-targeted|unit]] / [[proximity-targeted|proximity]]"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Yasuo",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

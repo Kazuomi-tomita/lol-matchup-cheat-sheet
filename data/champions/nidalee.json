@@ -1,0 +1,56 @@
+{
+  "id": "nidalee",
+  "name": "Nidalee",
+  "attackRange": 525,
+  "spells": {
+    "Q": {
+      "name": "Javelin Toss",
+      "range": "1500",
+      "cooldown": [
+        6
+      ],
+      "width": 80,
+      "castTime": 0.25,
+      "projectileSpeed": 1300,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Bushwhack",
+      "range": "900",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Primal Surge",
+      "range": "900",
+      "cooldown": [
+        12
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Aspect of the Cougar",
+      "range": null,
+      "cooldown": [
+        3
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Nidalee",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

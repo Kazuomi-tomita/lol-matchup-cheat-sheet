@@ -47,10 +47,10 @@ async function poll(): Promise<void> {
 
 function createWindow(): void {
   window = new BrowserWindow({
-    width: 480,
-    height: 720,
-    minWidth: 400,
-    minHeight: 560,
+    width: 620,
+    height: 650,
+    minWidth: 540,
+    minHeight: 520,
     backgroundColor: "#08111d",
     title: "LoL Matchup Viewer",
     webPreferences: {

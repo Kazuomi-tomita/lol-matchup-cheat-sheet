@@ -1,0 +1,70 @@
+{
+  "id": "camille",
+  "name": "Camille",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Precision Protocol",
+      "range": null,
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Tactical Sweep",
+      "range": null,
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ],
+      "radius": 325,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Hookshot",
+      "range": "800",
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "width": 100,
+      "castTime": "none",
+      "projectileSpeed": 1400,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "The Hextech Ultimatum",
+      "range": "475",
+      "cooldown": [
+        140,
+        127.5,
+        115,
+        102.5,
+        90
+      ],
+      "radius": 425,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Camille",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

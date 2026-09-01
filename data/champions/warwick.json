@@ -1,0 +1,68 @@
+{
+  "id": "warwick",
+  "name": "Warwick",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Jaws of the Beast",
+      "range": "365",
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ],
+      "castTime": null,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Blood Hunt",
+      "range": null,
+      "cooldown": [
+        80,
+        70,
+        60,
+        50,
+        40
+      ],
+      "radius": 4000,
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Primal Howl",
+      "range": null,
+      "cooldown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "radius": 375,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Infinite Duress",
+      "range": "250 / 25",
+      "cooldown": [
+        110,
+        100,
+        90,
+        80,
+        70
+      ],
+      "castTime": 0.1,
+      "collision": null,
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Warwick",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

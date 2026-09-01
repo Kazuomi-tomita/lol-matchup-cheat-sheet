@@ -1,0 +1,66 @@
+{
+  "id": "khazix",
+  "name": "Kha'Zix",
+  "aliases": [
+    "Khazix"
+  ],
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Taste Their Fear",
+      "range": "325",
+      "cooldown": [
+        4
+      ],
+      "radius": 375,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Void Spike",
+      "range": "1025",
+      "cooldown": [
+        9
+      ],
+      "width": 140,
+      "radius": 275,
+      "castTime": 0.25,
+      "projectileSpeed": 1700,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Leap",
+      "range": "700",
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ],
+      "radius": 300,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Void Assault",
+      "range": null,
+      "cooldown": [
+        100,
+        92.5,
+        85,
+        77.5,
+        70
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Kha'Zix",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

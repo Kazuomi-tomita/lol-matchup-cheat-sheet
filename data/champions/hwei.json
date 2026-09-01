@@ -1,0 +1,69 @@
+{
+  "id": "hwei",
+  "name": "Hwei",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Subject: Disaster",
+      "range": null,
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Subject: Serenity",
+      "range": null,
+      "cooldown": [
+        18,
+        17.5,
+        17,
+        16.5,
+        16
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Subject: Torment",
+      "range": null,
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Spiraling Despair",
+      "range": "1340 / 1300 / 40",
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "width": 180,
+      "radius": 500,
+      "castTime": 0.25,
+      "projectileSpeed": 1400,
+      "collision": "unit",
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Hwei",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

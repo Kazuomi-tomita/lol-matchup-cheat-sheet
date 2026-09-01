@@ -1,0 +1,60 @@
+{
+  "id": "tryndamere",
+  "name": "Tryndamere",
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Bloodlust",
+      "range": null,
+      "cooldown": [
+        12
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Mocking Shout",
+      "range": null,
+      "cooldown": [
+        14
+      ],
+      "radius": 850,
+      "castTime": 0.3,
+      "collision": null,
+      "targetType": "proximity"
+    },
+    "E": {
+      "name": "Spinning Slash",
+      "range": "660",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "radius": 225,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Undying Rage",
+      "range": null,
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Tryndamere",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

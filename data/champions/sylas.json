@@ -1,0 +1,61 @@
+{
+  "id": "sylas",
+  "name": "Sylas",
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Chain Lash",
+      "range": "50 / 775",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "castTime": 0.4,
+      "collision": null,
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Kingslayer",
+      "range": "400",
+      "cooldown": [
+        12,
+        10.5,
+        9,
+        7.5,
+        6
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "E": {
+      "name": "Abscond",
+      "range": "400",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ],
+      "castTime": "none",
+      "projectileSpeed": 1450,
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Hijack",
+      "range": "950",
+      "castTime": 0.25,
+      "projectileSpeed": 2200,
+      "collision": "unit",
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Sylas",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "twisted-fate",
+  "name": "Twisted Fate",
+  "aliases": [
+    "TwistedFate"
+  ],
+  "attackRange": 525,
+  "spells": {
+    "Q": {
+      "name": "Wild Cards",
+      "range": "1450",
+      "cooldown": [
+        6,
+        5.75,
+        5.5,
+        5.25,
+        5
+      ],
+      "width": 80,
+      "castTime": 0.25,
+      "projectileSpeed": 1000,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Pick a Card",
+      "range": null,
+      "cooldown": [
+        6
+      ],
+      "radius": 325,
+      "castTime": "none",
+      "projectileSpeed": "|Attack missile speed, same as basic attacks}}",
+      "collision": "unit",
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Stacked Deck",
+      "range": null,
+      "collision": "unit",
+      "targetType": "passive"
+    },
+    "R": {
+      "name": "Destiny",
+      "range": "5500",
+      "castTime": "none",
+      "collision": null,
+      "targetType": "[[auto-targeted|auto]] / [[location-targeted|location]]"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Twisted%20Fate",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

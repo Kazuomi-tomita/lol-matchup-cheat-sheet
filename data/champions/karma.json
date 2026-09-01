@@ -1,0 +1,65 @@
+{
+  "id": "karma",
+  "name": "Karma",
+  "attackRange": 525,
+  "spells": {
+    "Q": {
+      "name": "Inner Flame",
+      "range": "950 / 890",
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "width": 120,
+      "radius": 280,
+      "castTime": 0.25,
+      "projectileSpeed": 1700,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Focused Resolve",
+      "range": "675",
+      "cooldown": [
+        12
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "E": {
+      "name": "Inspire",
+      "range": "800",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Mantra",
+      "range": null,
+      "cooldown": [
+        40,
+        38.5,
+        37,
+        35.5,
+        34
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Karma",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

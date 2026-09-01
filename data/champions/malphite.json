@@ -1,0 +1,62 @@
+{
+  "id": "malphite",
+  "name": "Malphite",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Seismic Shard",
+      "range": "625",
+      "cooldown": [
+        8
+      ],
+      "castTime": 0.25,
+      "projectileSpeed": 1200,
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Thunderclap",
+      "range": null,
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ],
+      "castTime": "None",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Ground Slam",
+      "range": null,
+      "cooldown": [
+        7
+      ],
+      "radius": 400,
+      "castTime": 0.2419,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Unstoppable Force",
+      "range": "1000",
+      "cooldown": [
+        130,
+        122.5,
+        115,
+        107.5,
+        100
+      ],
+      "radius": 325,
+      "castTime": "none",
+      "projectileSpeed": "1500 / 100",
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Malphite",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "lux",
+  "name": "Lux",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Light Binding",
+      "range": "1300 / 1240",
+      "cooldown": [
+        10
+      ],
+      "width": 140,
+      "castTime": 0.25,
+      "projectileSpeed": 1200,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Prismatic Barrier",
+      "range": "1175",
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ],
+      "width": 220,
+      "radius": 110,
+      "castTime": "|Effect starts at beginning of cast time}}",
+      "projectileSpeed": 2400,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Lucent Singularity",
+      "range": "1100",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ],
+      "radius": 310,
+      "castTime": 0.25,
+      "projectileSpeed": 1200,
+      "collision": "unit",
+      "targetType": null
+    },
+    "R": {
+      "name": "Final Spark",
+      "range": "3400",
+      "cooldown": [
+        60,
+        55,
+        50,
+        45,
+        40
+      ],
+      "width": 200,
+      "castTime": 1,
+      "collision": null,
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Lux",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

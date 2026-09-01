@@ -1,0 +1,65 @@
+{
+  "id": "rakan",
+  "name": "Rakan",
+  "attackRange": 300,
+  "spells": {
+    "Q": {
+      "name": "Gleaming Quill",
+      "range": "900",
+      "width": 130,
+      "radius": 200,
+      "castTime": 0.25,
+      "projectileSpeed": 1850,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Grand Entrance",
+      "range": "650",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "radius": 275,
+      "castTime": "none",
+      "projectileSpeed": 1700,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Battle Dance",
+      "range": "700 / 1000",
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ],
+      "castTime": "none",
+      "projectileSpeed": "1250 / 80",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "The Quickness",
+      "range": null,
+      "cooldown": [
+        130,
+        120,
+        110,
+        100,
+        90
+      ],
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Rakan",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

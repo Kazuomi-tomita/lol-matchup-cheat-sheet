@@ -1,0 +1,67 @@
+{
+  "id": "lillia",
+  "name": "Lillia",
+  "attackRange": 325,
+  "spells": {
+    "Q": {
+      "name": "Blooming Blows",
+      "range": null,
+      "cooldown": [
+        6,
+        5.5,
+        5,
+        4.5,
+        4
+      ],
+      "radius": 485,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Watch Out! Eep!",
+      "range": "500 / 350",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "radius": 250,
+      "castTime": null,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Swirlseed",
+      "range": "700",
+      "cooldown": [
+        12
+      ],
+      "width": 120,
+      "radius": 150,
+      "castTime": 0.4,
+      "projectileSpeed": "|}}",
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Lilting Lullaby",
+      "range": null,
+      "cooldown": [
+        150,
+        140,
+        130,
+        120,
+        110
+      ],
+      "castTime": 0.4,
+      "collision": "unit",
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Lillia",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

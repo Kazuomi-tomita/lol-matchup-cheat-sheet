@@ -1,0 +1,70 @@
+{
+  "id": "neeko",
+  "name": "Neeko",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Blooming Burst",
+      "range": "800",
+      "cooldown": [
+        9,
+        8.5,
+        8,
+        7.5,
+        7
+      ],
+      "radius": 250,
+      "castTime": 0.25,
+      "projectileSpeed": 2000,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Shapesplitter",
+      "range": "900",
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "[[direction-targeted|direction]] / [[location-targeted|location]]"
+    },
+    "E": {
+      "name": "Tangle-Barbs",
+      "range": "1000",
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ],
+      "castTime": 0.25,
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Pop Blossom",
+      "range": null,
+      "cooldown": [
+        120,
+        112.5,
+        105,
+        97.5,
+        90
+      ],
+      "radius": 590,
+      "castTime": 0.6,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Neeko",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

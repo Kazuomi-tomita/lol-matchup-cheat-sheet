@@ -1,0 +1,53 @@
+{
+  "id": "karthus",
+  "name": "Karthus",
+  "attackRange": 450,
+  "spells": {
+    "Q": {
+      "name": "Lay Waste",
+      "range": "875",
+      "cooldown": [
+        1
+      ],
+      "radius": 160,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Wall of Pain",
+      "range": "1000",
+      "cooldown": [
+        15
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Defile",
+      "range": null,
+      "radius": 550,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Requiem",
+      "range": null,
+      "cooldown": [
+        200,
+        190,
+        180,
+        170,
+        160
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Karthus",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

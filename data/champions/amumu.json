@@ -1,0 +1,57 @@
+{
+  "id": "amumu",
+  "name": "Amumu",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Bandage Toss",
+      "range": "1100",
+      "width": 160,
+      "castTime": 0.25,
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Despair",
+      "range": null,
+      "radius": 350,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Tantrum",
+      "range": null,
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "radius": 350,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Curse of the Sad Mummy",
+      "range": null,
+      "cooldown": [
+        150,
+        137.5,
+        125,
+        112.5,
+        100
+      ],
+      "radius": 550,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Amumu",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "bard",
+  "name": "Bard",
+  "attackRange": 500,
+  "spells": {
+    "Q": {
+      "name": "Cosmic Binding",
+      "range": "850",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "width": 120,
+      "castTime": 0.25,
+      "projectileSpeed": 1500,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Caretaker's Shrine",
+      "range": "800",
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "[[location-targeted|location]] / [[unit-targeted|unit]]"
+    },
+    "E": {
+      "name": "Magical Journey",
+      "range": "900",
+      "cooldown": [
+        22,
+        20.5,
+        19,
+        17.5,
+        16
+      ],
+      "castTime": 0.25,
+      "projectileSpeed": "|}}",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Tempered Fate",
+      "range": "3400",
+      "cooldown": [
+        110,
+        95,
+        80
+      ],
+      "radius": 350,
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Bard",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

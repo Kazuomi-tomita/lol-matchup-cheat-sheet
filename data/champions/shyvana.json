@@ -1,0 +1,63 @@
+{
+  "id": "shyvana",
+  "name": "Shyvana",
+  "attackRange": 150,
+  "spells": {
+    "Q": {
+      "name": "Emberstrike",
+      "range": null,
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "radius": 275,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Inferno Aegis",
+      "range": null,
+      "cooldown": [
+        13,
+        12.25,
+        11.5,
+        10.75,
+        10
+      ],
+      "radius": 350,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Molten Burst",
+      "range": null,
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "castTime": "|While in Human Form}}||While in Dragon Form}}}}",
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "[[direction-targeted|direction]] / [[location-targeted|location]]"
+    },
+    "R": {
+      "name": "Dragon's Descent",
+      "range": "400 / 1050",
+      "castTime": 0.25,
+      "projectileSpeed": "<!---->",
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Shyvana",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

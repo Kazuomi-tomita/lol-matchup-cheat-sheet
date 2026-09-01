@@ -1,0 +1,64 @@
+{
+  "id": "darius",
+  "name": "Darius",
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Decimate",
+      "range": null,
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "radius": 460,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Crippling Strike",
+      "range": null,
+      "cooldown": [
+        5
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Apprehend",
+      "range": null,
+      "cooldown": [
+        26,
+        23.5,
+        21,
+        18.5,
+        16
+      ],
+      "radius": 535,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Noxian Guillotine",
+      "range": "475",
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "castTime": 0.3667,
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Darius",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

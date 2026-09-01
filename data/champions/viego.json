@@ -1,0 +1,67 @@
+{
+  "id": "viego",
+  "name": "Viego",
+  "attackRange": 200,
+  "spells": {
+    "Q": {
+      "name": "Blade of the Ruined King",
+      "range": "25 / 600 / 625",
+      "cooldown": [
+        5,
+        4.5,
+        4,
+        3.5,
+        3
+      ],
+      "width": 125,
+      "castTime": 3,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Spectral Maw",
+      "range": "500 – 900",
+      "cooldown": [
+        8
+      ],
+      "width": 120,
+      "castTime": "none",
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": null
+    },
+    "E": {
+      "name": "Harrowed Path",
+      "range": "775 / 8000",
+      "cooldown": [
+        14,
+        12,
+        10,
+        8,
+        6
+      ],
+      "castTime": "none",
+      "projectileSpeed": "|}}",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Heartbreaker",
+      "range": "500",
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "radius": 300,
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Viego",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

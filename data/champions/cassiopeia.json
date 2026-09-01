@@ -1,0 +1,63 @@
+{
+  "id": "cassiopeia",
+  "name": "Cassiopeia",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Noxious Blast",
+      "range": "850",
+      "cooldown": [
+        3.5
+      ],
+      "radius": 200,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Miasma",
+      "range": "700",
+      "cooldown": [
+        24,
+        22,
+        20,
+        18,
+        16
+      ],
+      "radius": 200,
+      "castTime": 0.25,
+      "projectileSpeed": 3000,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Twin Fang",
+      "range": "700 / 765",
+      "cooldown": [
+        0.75
+      ],
+      "castTime": 0.125,
+      "projectileSpeed": 2500,
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Petrifying Gaze",
+      "range": null,
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "radius": 850,
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Cassiopeia",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

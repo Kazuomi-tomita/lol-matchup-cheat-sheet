@@ -1,0 +1,67 @@
+{
+  "id": "akshan",
+  "name": "Akshan",
+  "attackRange": 500,
+  "spells": {
+    "Q": {
+      "name": "Avengerang",
+      "range": "850 – 500",
+      "width": 120,
+      "radius": 400,
+      "castTime": 0.25,
+      "projectileSpeed": null,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Going Rogue",
+      "range": null,
+      "cooldown": [
+        18,
+        14,
+        10,
+        6,
+        2
+      ],
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Heroic Swing",
+      "range": "800",
+      "cooldown": [
+        18,
+        16.5,
+        15,
+        13.5,
+        12
+      ],
+      "width": 80,
+      "radius": 500,
+      "castTime": "none",
+      "projectileSpeed": "||}}",
+      "collision": "unit",
+      "targetType": "[[auto-targeted|auto]] / [[location-targeted|location]]"
+    },
+    "R": {
+      "name": "Comeuppance",
+      "range": "2500",
+      "cooldown": [
+        100,
+        92.5,
+        85,
+        77.5,
+        70
+      ],
+      "width": 120,
+      "castTime": "none",
+      "projectileSpeed": 3200,
+      "collision": "unit",
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Akshan",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

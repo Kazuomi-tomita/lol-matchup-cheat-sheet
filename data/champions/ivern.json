@@ -1,0 +1,63 @@
+{
+  "id": "ivern",
+  "name": "Ivern",
+  "attackRange": 475,
+  "spells": {
+    "Q": {
+      "name": "Rootcaller",
+      "range": "1200",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "width": 160,
+      "castTime": 0.25,
+      "projectileSpeed": 1300,
+      "collision": "unit",
+      "targetType": null
+    },
+    "W": {
+      "name": "Brushmaker",
+      "range": "1000",
+      "castTime": 0.25,
+      "projectileSpeed": 3500,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Triggerseed",
+      "range": "750",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "radius": 500,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Daisy!",
+      "range": null,
+      "cooldown": [
+        140,
+        135,
+        130,
+        125,
+        120
+      ],
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "[[direction-targeted|direction]] / [[location-targeted|location]]"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Ivern",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

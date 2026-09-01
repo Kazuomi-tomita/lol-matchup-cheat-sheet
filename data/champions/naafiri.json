@@ -1,0 +1,72 @@
+{
+  "id": "naafiri",
+  "name": "Naafiri",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Darkin Daggers",
+      "range": "900",
+      "cooldown": [
+        9,
+        8.5,
+        8,
+        7.5,
+        7
+      ],
+      "width": 100,
+      "castTime": 0.25,
+      "projectileSpeed": 1700,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "The Call of the Pack",
+      "range": null,
+      "cooldown": [
+        26,
+        24,
+        22,
+        20,
+        18
+      ],
+      "castTime": 0.75,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Eviscerate",
+      "range": "250 / 450 / 650",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "radius": 230,
+      "castTime": "none",
+      "projectileSpeed": 900,
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Hounds' Pursuit",
+      "range": "900",
+      "cooldown": [
+        110,
+        102.5,
+        95,
+        87.5,
+        80
+      ],
+      "radius": 2100,
+      "castTime": "none",
+      "projectileSpeed": 1800,
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Naafiri",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

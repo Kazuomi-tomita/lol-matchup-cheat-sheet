@@ -1,0 +1,70 @@
+{
+  "id": "ziggs",
+  "name": "Ziggs",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Bouncing Bomb",
+      "range": "850",
+      "cooldown": [
+        6,
+        5.5,
+        5,
+        4.5,
+        4
+      ],
+      "radius": 240,
+      "castTime": 0.25,
+      "projectileSpeed": 1700,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Satchel Charge",
+      "range": "1000",
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ],
+      "radius": 325,
+      "castTime": 0.25,
+      "projectileSpeed": 1750,
+      "collision": "unit",
+      "targetType": "[[location-targeted|location]] / [[auto-targeted|auto]]"
+    },
+    "E": {
+      "name": "Hexplosive Minefield",
+      "range": "900",
+      "cooldown": [
+        16
+      ],
+      "radius": 335,
+      "castTime": 0.25,
+      "projectileSpeed": 1550,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Mega Inferno Bomb",
+      "range": "5000",
+      "cooldown": [
+        120,
+        107.5,
+        95,
+        82.5,
+        70
+      ],
+      "radius": 525,
+      "castTime": 0.375,
+      "projectileSpeed": 2250,
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Ziggs",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

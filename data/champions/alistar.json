@@ -1,0 +1,69 @@
+{
+  "id": "alistar",
+  "name": "Alistar",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Pulverize",
+      "range": null,
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "radius": 375,
+      "castTime": "|Standard cast time}}||Reduced cast time when buffered during Headbutt's dash}}}}",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Headbutt",
+      "range": "650",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "castTime": "none",
+      "projectileSpeed": "|See notes}}",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "E": {
+      "name": "Trample",
+      "range": null,
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ],
+      "radius": 350,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Unbreakable Will",
+      "range": null,
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Alistar",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

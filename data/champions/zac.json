@@ -1,0 +1,67 @@
+{
+  "id": "zac",
+  "name": "Zac",
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Stretching Strikes",
+      "range": "800 / 80",
+      "cooldown": [
+        14,
+        12.5,
+        11,
+        9.5,
+        8
+      ],
+      "width": 160,
+      "castTime": "|Cast time for the activation}}",
+      "projectileSpeed": 2800,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Unstable Matter",
+      "range": "350",
+      "cooldown": [
+        5
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Elastic Slingshot",
+      "range": "1200 – 1800",
+      "cooldown": [
+        21,
+        18,
+        15,
+        12,
+        9
+      ],
+      "radius": 265,
+      "castTime": "none",
+      "projectileSpeed": 1350,
+      "collision": null,
+      "targetType": "[[direction-targeted|direction]] / [[location-targeted|location]]"
+    },
+    "R": {
+      "name": "Let's Bounce!",
+      "range": null,
+      "cooldown": [
+        120,
+        112.5,
+        105,
+        97.5,
+        90
+      ],
+      "radius": 300,
+      "castTime": 0.3,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Zac",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

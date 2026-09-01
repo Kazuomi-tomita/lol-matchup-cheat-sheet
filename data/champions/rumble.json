@@ -1,0 +1,62 @@
+{
+  "id": "rumble",
+  "name": "Rumble",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Flamespitter",
+      "range": "600 / 50",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Scrap Shield",
+      "range": null,
+      "cooldown": [
+        6
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Electro Harpoon",
+      "range": "950 / 890",
+      "cooldown": [
+        0.5
+      ],
+      "width": 120,
+      "castTime": 0.25,
+      "projectileSpeed": 2000,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "The Equalizer",
+      "range": "1700",
+      "cooldown": [
+        130,
+        117.5,
+        105,
+        92.5,
+        80
+      ],
+      "width": 410,
+      "castTime": "|Starts after the spell is cast}}}}",
+      "projectileSpeed": 1600,
+      "collision": null,
+      "targetType": "vector"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Rumble",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

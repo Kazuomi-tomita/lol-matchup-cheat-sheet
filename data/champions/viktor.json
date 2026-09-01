@@ -1,0 +1,72 @@
+{
+  "id": "viktor",
+  "name": "Viktor",
+  "attackRange": 525,
+  "spells": {
+    "Q": {
+      "name": "Siphon Power",
+      "range": "600",
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "castTime": 0.25,
+      "projectileSpeed": 2000,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Gravity Field",
+      "range": "800",
+      "cooldown": [
+        17,
+        16,
+        15,
+        14,
+        13
+      ],
+      "radius": 340,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Hextech Ray",
+      "range": "550",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "width": 90,
+      "radius": 500,
+      "castTime": "none",
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "vector"
+    },
+    "R": {
+      "name": "Arcane Storm",
+      "range": "700",
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "radius": 325,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": null
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Viktor",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "belveth",
+  "name": "Bel'Veth",
+  "aliases": [
+    "Belveth"
+  ],
+  "attackRange": 150,
+  "spells": {
+    "Q": {
+      "name": "Void Surge",
+      "range": "400",
+      "cooldown": [
+        4,
+        3.25,
+        2.5,
+        1.75,
+        1
+      ],
+      "castTime": "None",
+      "projectileSpeed": 850,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Above and Below",
+      "range": "660",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "width": 200,
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Royal Maelstrom",
+      "range": null,
+      "cooldown": [
+        24,
+        21,
+        18,
+        15,
+        12
+      ],
+      "radius": 500,
+      "castTime": "None",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Endless Banquet",
+      "range": "450",
+      "cooldown": [
+        1
+      ],
+      "radius": 500,
+      "castTime": 1,
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Bel'Veth",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

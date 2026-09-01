@@ -1,0 +1,61 @@
+{
+  "id": "rammus",
+  "name": "Rammus",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Powerball",
+      "range": null,
+      "cooldown": [
+        12,
+        10.5,
+        9,
+        7.5,
+        6
+      ],
+      "radius": 250,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Defensive Ball Curl",
+      "range": null,
+      "cooldown": [
+        7
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Frenzying Taunt",
+      "range": "325",
+      "cooldown": [
+        12
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Soaring Slam",
+      "range": "800 / 150 / 25",
+      "cooldown": [
+        120,
+        112.5,
+        105,
+        97.5,
+        90
+      ],
+      "radius": 400,
+      "castTime": "None",
+      "projectileSpeed": "|}}<!--Dash speed growth is 110%-->",
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Rammus",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "milio",
+  "name": "Milio",
+  "attackRange": 525,
+  "spells": {
+    "Q": {
+      "name": "Ultra Mega Fire Kick",
+      "range": "1200",
+      "cooldown": [
+        10
+      ],
+      "width": 120,
+      "radius": 100,
+      "castTime": "none",
+      "projectileSpeed": 1200,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Cozy Campfire",
+      "range": "650 / 3000",
+      "cooldown": [
+        29,
+        27,
+        25,
+        23,
+        21
+      ],
+      "radius": 415,
+      "castTime": "|Initial cast}}|}}",
+      "collision": null,
+      "targetType": null
+    },
+    "E": {
+      "name": "Warm Hugs",
+      "range": "650",
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Breath of Life",
+      "range": null,
+      "cooldown": [
+        160,
+        152.5,
+        145,
+        137.5,
+        130
+      ],
+      "radius": 700,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Milio",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

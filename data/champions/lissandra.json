@@ -1,0 +1,72 @@
+{
+  "id": "lissandra",
+  "name": "Lissandra",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Ice Shard",
+      "range": "825 / 950",
+      "cooldown": [
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "width": 150,
+      "castTime": 0.25,
+      "projectileSpeed": 2200,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Ring of Frost",
+      "range": null,
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ],
+      "radius": 275,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Glacial Path",
+      "range": "1025",
+      "cooldown": [
+        24,
+        21,
+        18,
+        15,
+        12
+      ],
+      "width": 250,
+      "castTime": 0.25,
+      "projectileSpeed": "1200 / 640",
+      "collision": "unit",
+      "targetType": null
+    },
+    "R": {
+      "name": "Frozen Tomb",
+      "range": "550",
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "radius": 550,
+      "castTime": "|Enemy cast}}|}}",
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Lissandra",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

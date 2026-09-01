@@ -1,0 +1,68 @@
+{
+  "id": "zoe",
+  "name": "Zoe",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Paddle Star!",
+      "range": "800",
+      "cooldown": [
+        8.5,
+        8,
+        7.5,
+        7,
+        6.5
+      ],
+      "width": 100,
+      "radius": 180,
+      "castTime": "|First cast}}|}}",
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Spell Thief",
+      "range": null,
+      "cooldown": [
+        0.25
+      ],
+      "radius": 525,
+      "collision": "unit",
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Sleepy Trouble Bubble",
+      "range": "800 / 50",
+      "cooldown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "width": 100,
+      "radius": 250,
+      "castTime": 0.25,
+      "projectileSpeed": 1850,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Portal Jump",
+      "range": "575",
+      "cooldown": [
+        11,
+        9.5,
+        8,
+        6.5,
+        5
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Zoe",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

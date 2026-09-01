@@ -1,0 +1,72 @@
+{
+  "id": "poppy",
+  "name": "Poppy",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Hammer Shock",
+      "range": "460 / 65 / 120",
+      "cooldown": [
+        8,
+        7,
+        6,
+        5,
+        4
+      ],
+      "width": 160,
+      "castTime": 0.3325,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Steadfast Presence",
+      "range": null,
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ],
+      "radius": 400,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Heroic Charge",
+      "range": "475",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "castTime": "none",
+      "projectileSpeed": 1800,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Keeper's Verdict",
+      "range": "850 – 1200",
+      "cooldown": [
+        140,
+        130,
+        120,
+        110,
+        100
+      ],
+      "width": 180,
+      "radius": 180,
+      "castTime": "|Uncharged release}}||Charged release}}}}",
+      "projectileSpeed": 2500,
+      "collision": "unit",
+      "targetType": null
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Poppy",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

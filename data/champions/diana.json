@@ -1,0 +1,68 @@
+{
+  "id": "diana",
+  "name": "Diana",
+  "attackRange": 150,
+  "spells": {
+    "Q": {
+      "name": "Crescent Strike",
+      "range": "900",
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ],
+      "castTime": 0.25,
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Pale Cascade",
+      "range": null,
+      "cooldown": [
+        15,
+        13.5,
+        12,
+        10.5,
+        9
+      ],
+      "radius": 200,
+      "castTime": "none",
+      "collision": "unit",
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Lunar Rush",
+      "range": "825",
+      "cooldown": [
+        22,
+        20,
+        18,
+        16,
+        14
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Moonfall",
+      "range": null,
+      "cooldown": [
+        100,
+        95,
+        90,
+        85,
+        80
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Diana",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

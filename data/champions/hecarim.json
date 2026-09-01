@@ -1,0 +1,65 @@
+{
+  "id": "hecarim",
+  "name": "Hecarim",
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Rampage",
+      "range": null,
+      "cooldown": [
+        0,
+        0.75,
+        1.5,
+        2.25,
+        3
+      ],
+      "radius": 375,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Spirit of Dread",
+      "range": null,
+      "cooldown": [
+        14
+      ],
+      "radius": 525,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Devastating Charge",
+      "range": null,
+      "cooldown": [
+        20,
+        19,
+        18,
+        17,
+        16
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Onslaught of Shadows",
+      "range": "300 / 1000",
+      "cooldown": [
+        140,
+        120,
+        100
+      ],
+      "width": 80,
+      "radius": 315,
+      "castTime": "none",
+      "projectileSpeed": 1100,
+      "collision": "unit",
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Hecarim",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

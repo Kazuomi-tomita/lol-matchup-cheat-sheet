@@ -1,0 +1,73 @@
+{
+  "id": "thresh",
+  "name": "Thresh",
+  "attackRange": 450,
+  "spells": {
+    "Q": {
+      "name": "Death Sentence",
+      "range": "1100 / 1040",
+      "cooldown": [
+        19,
+        16.5,
+        14,
+        11.5,
+        9
+      ],
+      "width": 140,
+      "castTime": "|Initial cast}}|}}",
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": null
+    },
+    "W": {
+      "name": "Dark Passage",
+      "range": "950",
+      "cooldown": [
+        21,
+        20,
+        19,
+        18,
+        17
+      ],
+      "radius": 350,
+      "castTime": "none",
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Flay",
+      "range": "550 / 525",
+      "cooldown": [
+        13,
+        12.25,
+        11.5,
+        10.75,
+        10
+      ],
+      "width": 220,
+      "radius": 270,
+      "castTime": "|Effects start immediately}}",
+      "projectileSpeed": 2000,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "The Box",
+      "range": null,
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "width": 30,
+      "castTime": 0.45,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Thresh",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

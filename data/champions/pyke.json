@@ -1,0 +1,72 @@
+{
+  "id": "pyke",
+  "name": "Pyke",
+  "attackRange": 150,
+  "spells": {
+    "Q": {
+      "name": "Bone Skewer",
+      "range": "400 – 1100",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ],
+      "width": 140,
+      "radius": 550,
+      "castTime": "|Quick-release}}",
+      "collision": null,
+      "targetType": null
+    },
+    "W": {
+      "name": "Ghostwater Dive",
+      "range": null,
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Phantom Undertow",
+      "range": "550",
+      "cooldown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "width": 220,
+      "radius": 110,
+      "castTime": "none",
+      "projectileSpeed": 3000,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Death from Below",
+      "range": "750",
+      "cooldown": [
+        100,
+        92.5,
+        85,
+        77.5,
+        70
+      ],
+      "radius": 125,
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Pyke",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

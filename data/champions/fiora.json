@@ -1,0 +1,70 @@
+{
+  "id": "fiora",
+  "name": "Fiora",
+  "attackRange": 150,
+  "spells": {
+    "Q": {
+      "name": "Lunge",
+      "range": "50 / 400",
+      "cooldown": [
+        13,
+        11.25,
+        9.5,
+        7.75,
+        6
+      ],
+      "castTime": "none",
+      "projectileSpeed": 1100,
+      "collision": null,
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Riposte",
+      "range": "900",
+      "cooldown": [
+        24,
+        22,
+        20,
+        18,
+        16
+      ],
+      "width": 140,
+      "castTime": "none",
+      "projectileSpeed": 3200,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Bladework",
+      "range": null,
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Grand Challenge",
+      "range": "500",
+      "cooldown": [
+        110,
+        100,
+        90,
+        80,
+        70
+      ],
+      "radius": 550,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Fiora",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

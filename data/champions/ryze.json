@@ -1,0 +1,67 @@
+{
+  "id": "ryze",
+  "name": "Ryze",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Overload",
+      "range": "1000",
+      "cooldown": [
+        5
+      ],
+      "width": 110,
+      "castTime": 0.25,
+      "projectileSpeed": 1700,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Rune Prison",
+      "range": "550",
+      "cooldown": [
+        11,
+        10.5,
+        10,
+        9.5,
+        9
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "E": {
+      "name": "Spell Flux",
+      "range": "550",
+      "cooldown": [
+        3.5,
+        3.25,
+        3,
+        2.75,
+        2.5
+      ],
+      "radius": 350,
+      "castTime": 0.25,
+      "projectileSpeed": "|}}",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Realm Warp",
+      "range": "1000 / 3000",
+      "cooldown": [
+        180,
+        170,
+        160,
+        150,
+        140
+      ],
+      "radius": 465,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Ryze",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

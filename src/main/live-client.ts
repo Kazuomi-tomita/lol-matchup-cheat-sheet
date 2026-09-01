@@ -2,6 +2,7 @@ import https from "node:https";
 
 interface LivePlayer {
   championName: string;
+  rawChampionName?: string;
   summonerName?: string;
   riotId?: string;
   team: string;
@@ -14,6 +15,12 @@ interface LiveGameData {
 }
 
 export interface DetectedMatchup { you: string; enemy?: string; enemyNames: string[] }
+
+function stableChampionName(player: LivePlayer): string {
+  // championName is localized (e.g. Japanese), while rawChampionName contains
+  // a locale-independent key such as "game_character_displayname_Ahri".
+  return player.rawChampionName?.replace(/^game_character_displayname_/i, "") || player.championName;
+}
 
 function fetchGameData(): Promise<LiveGameData> {
   return new Promise((resolve, reject) => {
@@ -59,8 +66,8 @@ export async function detectMatchup(): Promise<DetectedMatchup> {
     ?? enemies.find((player) => normalizedPosition(player.position) === "MID");
 
   return {
-    you: you.championName,
-    enemy: enemy?.championName,
-    enemyNames: enemies.map((player) => player.championName)
+    you: stableChampionName(you),
+    enemy: enemy ? stableChampionName(enemy) : undefined,
+    enemyNames: enemies.map(stableChampionName)
   };
 }

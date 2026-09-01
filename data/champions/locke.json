@@ -1,0 +1,65 @@
+{
+  "id": "locke",
+  "name": "Locke",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Ritual Nails",
+      "range": "950",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "width": 100,
+      "castTime": 0.25,
+      "projectileSpeed": 1650,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Soul Ignition",
+      "range": null,
+      "cooldown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Ashen Pursuit",
+      "range": "375",
+      "cooldown": [
+        10
+      ],
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Purgatory",
+      "range": "950",
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "radius": 400,
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Locke",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "soraka",
+  "name": "Soraka",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Starcall",
+      "range": "800",
+      "cooldown": [
+        8,
+        7,
+        6,
+        5,
+        4
+      ],
+      "radius": 265,
+      "castTime": 0.25,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Astral Infusion",
+      "range": "550",
+      "cooldown": [
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "E": {
+      "name": "Equinox",
+      "range": "925",
+      "cooldown": [
+        20,
+        19,
+        18,
+        17,
+        16
+      ],
+      "radius": 260,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Wish",
+      "range": null,
+      "cooldown": [
+        150,
+        142.5,
+        135,
+        127.5,
+        120
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Soraka",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

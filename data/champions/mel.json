@@ -1,0 +1,71 @@
+{
+  "id": "mel",
+  "name": "Mel",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Radiant Volley",
+      "range": "950",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "radius": 100,
+      "castTime": 0.35,
+      "projectileSpeed": 3800,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Rebuttal",
+      "range": null,
+      "cooldown": [
+        38,
+        35,
+        32,
+        29,
+        26
+      ],
+      "radius": 175,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Solar Snare",
+      "range": "1000",
+      "cooldown": [
+        11,
+        10.5,
+        10,
+        9.5,
+        9
+      ],
+      "radius": 400,
+      "castTime": 0.25,
+      "projectileSpeed": 1100,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Golden Eclipse",
+      "range": null,
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "castTime": 0.75,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Mel",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

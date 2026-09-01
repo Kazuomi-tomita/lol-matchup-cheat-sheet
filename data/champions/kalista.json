@@ -1,0 +1,61 @@
+{
+  "id": "kalista",
+  "name": "Kalista",
+  "attackRange": 525,
+  "spells": {
+    "Q": {
+      "name": "Pierce",
+      "range": "1200",
+      "cooldown": [
+        9
+      ],
+      "width": 80,
+      "castTime": 0.25,
+      "projectileSpeed": 2400,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Sentinel",
+      "range": "1400 / 5000",
+      "cooldown": [
+        30
+      ],
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Rend",
+      "range": null,
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ],
+      "radius": 1100,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "proximity"
+    },
+    "R": {
+      "name": "Fate's Call",
+      "range": "1200",
+      "cooldown": [
+        160,
+        150,
+        140,
+        130,
+        120
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "proximity"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Kalista",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

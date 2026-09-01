@@ -1,0 +1,72 @@
+{
+  "id": "graves",
+  "name": "Graves",
+  "attackRange": 425,
+  "spells": {
+    "Q": {
+      "name": "End of the Line",
+      "range": "800 / 900",
+      "cooldown": [
+        13,
+        11.25,
+        9.5,
+        7.75,
+        6
+      ],
+      "width": 80,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Smoke Screen",
+      "range": "950",
+      "cooldown": [
+        26,
+        24,
+        22,
+        20,
+        18
+      ],
+      "radius": 200,
+      "castTime": 0.25,
+      "projectileSpeed": 1500,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Quickdraw",
+      "range": "275 / 375",
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Collateral Damage",
+      "range": "1100 / 1690",
+      "cooldown": [
+        100,
+        90,
+        80,
+        70,
+        60
+      ],
+      "width": 200,
+      "radius": 740,
+      "castTime": 0.25,
+      "projectileSpeed": 2100,
+      "collision": "unit",
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Graves",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

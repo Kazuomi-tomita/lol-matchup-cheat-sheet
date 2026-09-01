@@ -1,0 +1,63 @@
+{
+  "id": "shen",
+  "name": "Shen",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Twilight Assault",
+      "range": null,
+      "cooldown": [
+        8,
+        7.25,
+        6.5,
+        5.75,
+        5
+      ],
+      "width": 160,
+      "castTime": "none",
+      "projectileSpeed": "2000 / 5000",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Spirit's Refuge",
+      "range": null,
+      "cooldown": [
+        16,
+        14.5,
+        13,
+        11.5,
+        10
+      ],
+      "radius": 350,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Shadow Dash",
+      "range": "300 / 600",
+      "castTime": "none",
+      "projectileSpeed": 800,
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Stand United",
+      "range": null,
+      "cooldown": [
+        200,
+        190,
+        180,
+        170,
+        160
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Shen",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

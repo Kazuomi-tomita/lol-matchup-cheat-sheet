@@ -1,0 +1,70 @@
+{
+  "id": "sion",
+  "name": "Sion",
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Decimating Smash",
+      "range": "0 – 1",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "[[direction-targeted|direction]] / [[auto-targeted|auto]]"
+    },
+    "W": {
+      "name": "Soul Furnace",
+      "range": null,
+      "cooldown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "radius": 525,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Roar of the Slayer",
+      "range": "800 / 1350",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "width": 160,
+      "radius": 130,
+      "castTime": 0.25,
+      "projectileSpeed": 1800,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Unstoppable Onslaught",
+      "range": null,
+      "cooldown": [
+        140,
+        120,
+        100,
+        80,
+        60
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "[[direction-targeted|direction]] / [[auto-targeted|auto]]"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Sion",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

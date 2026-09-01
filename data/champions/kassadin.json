@@ -1,0 +1,65 @@
+{
+  "id": "kassadin",
+  "name": "Kassadin",
+  "attackRange": 150,
+  "spells": {
+    "Q": {
+      "name": "Null Sphere",
+      "range": "650",
+      "cooldown": [
+        9,
+        8.5,
+        8,
+        7.5,
+        7
+      ],
+      "castTime": 0.25,
+      "projectileSpeed": 1400,
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Nether Blade",
+      "range": null,
+      "cooldown": [
+        7
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Force Pulse",
+      "range": null,
+      "cooldown": [
+        21,
+        20,
+        19,
+        18,
+        17
+      ],
+      "radius": 600,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Riftwalk",
+      "range": "500",
+      "cooldown": [
+        5,
+        4.25,
+        3.5,
+        2.75,
+        2
+      ],
+      "radius": 270,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Kassadin",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

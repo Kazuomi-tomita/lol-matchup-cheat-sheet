@@ -1,0 +1,67 @@
+{
+  "id": "kennen",
+  "name": "Kennen",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Thundering Shuriken",
+      "range": "1050",
+      "cooldown": [
+        7,
+        6.25,
+        5.5,
+        4.75,
+        4
+      ],
+      "width": 100,
+      "castTime": 0.175,
+      "projectileSpeed": 1700,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Electrical Surge",
+      "range": null,
+      "cooldown": [
+        13,
+        11.25,
+        9.5,
+        7.75,
+        6
+      ],
+      "radius": 775,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "proximity"
+    },
+    "E": {
+      "name": "Lightning Rush",
+      "range": null,
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "radius": 200,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Slicing Maelstrom",
+      "range": null,
+      "cooldown": [
+        120
+      ],
+      "radius": 550,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Kennen",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

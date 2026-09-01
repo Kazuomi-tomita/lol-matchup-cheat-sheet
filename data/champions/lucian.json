@@ -1,0 +1,72 @@
+{
+  "id": "lucian",
+  "name": "Lucian",
+  "attackRange": 500,
+  "spells": {
+    "Q": {
+      "name": "Piercing Light",
+      "range": "500",
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "width": 120,
+      "castTime": "0.4 / 0.3625 / 0.325 / 0.2875 / 0.25",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Ardent Blaze",
+      "range": "900",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "width": 110,
+      "castTime": 0.25,
+      "projectileSpeed": 1600,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Relentless Pursuit",
+      "range": "200 / 425",
+      "cooldown": [
+        16,
+        15.5,
+        15,
+        14.5,
+        14
+      ],
+      "castTime": "none",
+      "projectileSpeed": 1350,
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "The Culling",
+      "range": "1200 / 1140",
+      "cooldown": [
+        110,
+        105,
+        100,
+        95,
+        90
+      ],
+      "width": 220,
+      "castTime": "none",
+      "projectileSpeed": 2800,
+      "collision": "unit",
+      "targetType": "[[direction-targeted|direction]] / [[auto-targeted|auto]]"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Lucian",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

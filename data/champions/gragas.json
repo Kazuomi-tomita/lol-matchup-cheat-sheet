@@ -1,0 +1,68 @@
+{
+  "id": "gragas",
+  "name": "Gragas",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Barrel Roll",
+      "range": "850",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "radius": 250,
+      "castTime": 0.25,
+      "projectileSpeed": 1000,
+      "collision": "unit",
+      "targetType": "[[location-targeted|location]] / [[auto-targeted|auto]]"
+    },
+    "W": {
+      "name": "Drunken Rage",
+      "range": null,
+      "cooldown": [
+        5
+      ],
+      "radius": 250,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Body Slam",
+      "range": "600",
+      "cooldown": [
+        14,
+        13.5,
+        13,
+        12.5,
+        12
+      ],
+      "radius": 180,
+      "castTime": "none",
+      "projectileSpeed": 910,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Explosive Cask",
+      "range": "1000",
+      "cooldown": [
+        100,
+        92.5,
+        85,
+        77.5,
+        70
+      ],
+      "radius": 400,
+      "castTime": 0.25,
+      "collision": "unit",
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Gragas",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

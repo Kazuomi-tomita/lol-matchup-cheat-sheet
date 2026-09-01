@@ -1,0 +1,64 @@
+{
+  "id": "aurelion-sol",
+  "name": "Aurelion Sol",
+  "aliases": [
+    "AurelionSol"
+  ],
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Breath of Light",
+      "range": "750 – 920",
+      "cooldown": [
+        3
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Astral Flight",
+      "range": "1500",
+      "cooldown": [
+        22,
+        20,
+        18,
+        16,
+        14
+      ],
+      "castTime": "|Initial cast  (0.375, rounded to the next game tick)}}|}}",
+      "projectileSpeed": "+ |Dash speed}}|*0.5}} + % movement speed}}|Dash speed while channeling Breath of Light}}}}",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Singularity",
+      "range": "750 – 920",
+      "cooldown": [
+        12
+      ],
+      "radius": 275,
+      "castTime": 0.2,
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Falling Star",
+      "range": "1250",
+      "cooldown": [
+        120,
+        115,
+        110,
+        105,
+        100
+      ],
+      "radius": 275,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Aurelion%20Sol",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

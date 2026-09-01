@@ -1,0 +1,65 @@
+{
+  "id": "renekton",
+  "name": "Renekton",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Cull the Meek",
+      "range": null,
+      "cooldown": [
+        7
+      ],
+      "radius": 400,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Ruthless Predator",
+      "range": null,
+      "cooldown": [
+        16,
+        14,
+        12,
+        10,
+        8
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Slice and Dice",
+      "range": "450",
+      "cooldown": [
+        16,
+        14.5,
+        13,
+        11.5,
+        10
+      ],
+      "castTime": "none",
+      "projectileSpeed": "760 / 100",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Dominus",
+      "range": null,
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "radius": 375,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Renekton",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

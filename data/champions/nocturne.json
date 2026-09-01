@@ -1,0 +1,60 @@
+{
+  "id": "nocturne",
+  "name": "Nocturne",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Duskbringer",
+      "range": "1200",
+      "cooldown": [
+        8
+      ],
+      "width": 120,
+      "radius": 150,
+      "castTime": 0.25,
+      "projectileSpeed": 1600,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Shroud of Darkness",
+      "range": null,
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Unspeakable Horror",
+      "range": "425",
+      "cooldown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "radius": 1000,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Paranoia",
+      "range": "2500 / 3250 / 4000",
+      "castTime": "none",
+      "projectileSpeed": 1800,
+      "collision": null,
+      "targetType": "[[auto-targeted|auto]] / [[unit-targeted|unit]]"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Nocturne",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

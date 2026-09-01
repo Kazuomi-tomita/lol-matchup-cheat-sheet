@@ -1,0 +1,59 @@
+{
+  "id": "taric",
+  "name": "Taric",
+  "attackRange": 150,
+  "spells": {
+    "Q": {
+      "name": "Starlight's Touch",
+      "range": null,
+      "cooldown": [
+        3
+      ],
+      "radius": 325,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Bastion",
+      "range": "800",
+      "cooldown": [
+        15
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "E": {
+      "name": "Dazzle",
+      "range": "575",
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "width": 140,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Cosmic Radiance",
+      "range": null,
+      "cooldown": [
+        180,
+        150,
+        120
+      ],
+      "radius": 400,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Taric",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

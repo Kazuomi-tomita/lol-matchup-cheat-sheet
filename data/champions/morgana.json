@@ -1,0 +1,62 @@
+{
+  "id": "morgana",
+  "name": "Morgana",
+  "attackRange": 450,
+  "spells": {
+    "Q": {
+      "name": "Dark Binding",
+      "range": "1300",
+      "cooldown": [
+        10
+      ],
+      "width": 140,
+      "castTime": 0.25,
+      "projectileSpeed": 1200,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Tormented Shadow",
+      "range": "900",
+      "cooldown": [
+        12
+      ],
+      "radius": 280,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Black Shield",
+      "range": "800",
+      "cooldown": [
+        26,
+        23.5,
+        21,
+        18.5,
+        16
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Soul Shackles",
+      "range": null,
+      "cooldown": [
+        120,
+        115,
+        110,
+        105,
+        100
+      ],
+      "radius": 625,
+      "castTime": 0.35,
+      "collision": null,
+      "targetType": "proximity"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Morgana",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

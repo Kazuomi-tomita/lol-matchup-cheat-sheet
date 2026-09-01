@@ -1,0 +1,56 @@
+{
+  "id": "yuumi",
+  "name": "Yuumi",
+  "attackRange": 425,
+  "spells": {
+    "Q": {
+      "name": "Prowling Projectile",
+      "range": "850",
+      "cooldown": [
+        6.5
+      ],
+      "width": 120,
+      "castTime": "none",
+      "projectileSpeed": "||}}",
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "You and Me!",
+      "range": "700",
+      "castTime": "none",
+      "projectileSpeed": "|Dash speed}}",
+      "collision": null,
+      "targetType": "[[unit-targeted|unit]] / [[direction-targeted|direction]]"
+    },
+    "E": {
+      "name": "Zoomies",
+      "range": null,
+      "cooldown": [
+        10
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Final Chapter",
+      "range": "1100",
+      "cooldown": [
+        120,
+        115,
+        110,
+        105,
+        100
+      ],
+      "width": 450,
+      "castTime": "none",
+      "projectileSpeed": 3000,
+      "collision": "unit",
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Yuumi",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

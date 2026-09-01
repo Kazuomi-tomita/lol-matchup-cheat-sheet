@@ -1,0 +1,64 @@
+{
+  "id": "caitlyn",
+  "name": "Caitlyn",
+  "attackRange": 650,
+  "spells": {
+    "Q": {
+      "name": "Piltover Peacemaker",
+      "range": "1300 / 1240",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "width": 120,
+      "castTime": 0.625,
+      "projectileSpeed": 2200,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Yordle Snap Trap",
+      "range": "800",
+      "cooldown": [
+        0.5
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "90 Caliber Net",
+      "range": "800 / 740",
+      "cooldown": [
+        16,
+        14,
+        12,
+        10,
+        8
+      ],
+      "radius": 140,
+      "castTime": 0.15,
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Ace in the Hole",
+      "range": "3500",
+      "cooldown": [
+        90
+      ],
+      "width": 80,
+      "castTime": 0.375,
+      "projectileSpeed": 3200,
+      "collision": "unit",
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Caitlyn",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

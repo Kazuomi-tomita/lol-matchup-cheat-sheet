@@ -1,0 +1,69 @@
+{
+  "id": "seraphine",
+  "name": "Seraphine",
+  "attackRange": 525,
+  "spells": {
+    "Q": {
+      "name": "High Note",
+      "range": "900",
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ],
+      "radius": 350,
+      "castTime": 0.25,
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Surround Sound",
+      "range": null,
+      "cooldown": [
+        22
+      ],
+      "radius": 800,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Beat Drop",
+      "range": "1300",
+      "cooldown": [
+        11,
+        10.5,
+        10,
+        9.5,
+        9
+      ],
+      "width": 140,
+      "castTime": 0.25,
+      "projectileSpeed": 1200,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Encore",
+      "range": "1300",
+      "cooldown": [
+        160,
+        150,
+        140,
+        130,
+        120
+      ],
+      "width": 320,
+      "castTime": "|See notes}}||See notes}}}}",
+      "projectileSpeed": 1600,
+      "collision": "unit",
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Seraphine",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

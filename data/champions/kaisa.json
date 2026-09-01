@@ -1,0 +1,73 @@
+{
+  "id": "kaisa",
+  "name": "Kai'Sa",
+  "aliases": [
+    "Kaisa"
+  ],
+  "attackRange": 525,
+  "spells": {
+    "Q": {
+      "name": "Icathian Rain",
+      "range": "600",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "castTime": "none",
+      "collision": "unit",
+      "targetType": "proximity"
+    },
+    "W": {
+      "name": "Void Seeker",
+      "range": "3000",
+      "cooldown": [
+        20,
+        18.5,
+        17,
+        15.5,
+        14
+      ],
+      "width": 200,
+      "castTime": 0.4,
+      "projectileSpeed": 1750,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Supercharge",
+      "range": null,
+      "cooldown": [
+        16,
+        14.5,
+        13,
+        11.5,
+        10
+      ],
+      "castTime": "|attack speed}}",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Killer Instinct",
+      "range": "2000 – 3000",
+      "cooldown": [
+        130,
+        115,
+        100,
+        85,
+        70
+      ],
+      "radius": 525,
+      "castTime": "none",
+      "projectileSpeed": 3800,
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Kai'Sa",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

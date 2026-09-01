@@ -1,0 +1,65 @@
+{
+  "id": "orianna",
+  "name": "Orianna",
+  "attackRange": 525,
+  "spells": {
+    "Q": {
+      "name": "Command: Attack",
+      "range": "825",
+      "cooldown": [
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "width": 160,
+      "radius": 175,
+      "castTime": "None",
+      "projectileSpeed": 1400,
+      "collision": null,
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Command: Dissonance",
+      "range": null,
+      "cooldown": [
+        7
+      ],
+      "radius": 225,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Command: Protect",
+      "range": "1120",
+      "cooldown": [
+        9
+      ],
+      "width": 160,
+      "castTime": "none",
+      "projectileSpeed": 1850,
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Command: Shockwave",
+      "range": null,
+      "cooldown": [
+        110,
+        102.5,
+        95,
+        87.5,
+        80
+      ],
+      "radius": 415,
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Orianna",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

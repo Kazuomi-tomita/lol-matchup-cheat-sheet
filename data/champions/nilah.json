@@ -1,0 +1,58 @@
+{
+  "id": "nilah",
+  "name": "Nilah",
+  "attackRange": 225,
+  "spells": {
+    "Q": {
+      "name": "Formless Blade",
+      "range": "600 / 150 / 500",
+      "cooldown": [
+        4
+      ],
+      "width": 150,
+      "castTime": "|attack speed}}}}|}}",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Jubilant Veil",
+      "range": null,
+      "cooldown": [
+        26,
+        25,
+        24,
+        23,
+        22
+      ],
+      "castTime": "None",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Slipstream",
+      "range": "550",
+      "castTime": "none",
+      "projectileSpeed": 2200,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Apotheosis",
+      "range": null,
+      "cooldown": [
+        110,
+        102.5,
+        95,
+        87.5,
+        80
+      ],
+      "radius": 450,
+      "castTime": "None",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Nilah",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

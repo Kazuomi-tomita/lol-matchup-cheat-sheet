@@ -1,0 +1,62 @@
+{
+  "id": "lulu",
+  "name": "Lulu",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Glitterlance",
+      "range": "950",
+      "cooldown": [
+        7
+      ],
+      "width": 120,
+      "castTime": 0.25,
+      "projectileSpeed": 1450,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Whimsy",
+      "range": "650",
+      "cooldown": [
+        18
+      ],
+      "castTime": "|Enemy cast}}|}}",
+      "projectileSpeed": 2250,
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "E": {
+      "name": "Help, Pix!",
+      "range": "650",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Wild Growth",
+      "range": "900",
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "radius": 400,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Lulu",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

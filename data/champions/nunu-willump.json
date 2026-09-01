@@ -1,0 +1,70 @@
+{
+  "id": "nunu-willump",
+  "name": "Nunu & Willump",
+  "aliases": [
+    "Nunu"
+  ],
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Consume",
+      "range": "125",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ],
+      "castTime": 0.3,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Biggest Snowball Ever!",
+      "range": "750 – 1750",
+      "cooldown": [
+        14
+      ],
+      "radius": 130,
+      "castTime": "none",
+      "projectileSpeed": 100,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Snowball Barrage",
+      "range": "700",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "width": 50,
+      "castTime": "|}}",
+      "projectileSpeed": 2000,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Absolute Zero",
+      "range": null,
+      "cooldown": [
+        110,
+        105,
+        100,
+        95,
+        90
+      ],
+      "radius": 650,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Nunu%20%26%20Willump",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

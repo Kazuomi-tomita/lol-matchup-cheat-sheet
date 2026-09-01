@@ -1,0 +1,71 @@
+{
+  "id": "xerath",
+  "name": "Xerath",
+  "attackRange": 525,
+  "spells": {
+    "Q": {
+      "name": "Arcanopulse",
+      "range": "700 – 1450",
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "width": 145,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "[[auto-targeted|auto]] / [[direction-targeted|direction]]"
+    },
+    "W": {
+      "name": "Eye of Destruction",
+      "range": "1000",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "radius": 275,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Shocking Orb",
+      "range": "1125",
+      "cooldown": [
+        13,
+        12.5,
+        12,
+        11.5,
+        11
+      ],
+      "width": 120,
+      "castTime": 0.25,
+      "projectileSpeed": 1400,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Rite of the Arcane",
+      "range": "5000",
+      "cooldown": [
+        130,
+        122.5,
+        115,
+        107.5,
+        100
+      ],
+      "radius": 200,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "[[auto-targeted|auto]] / [[location-targeted|location]]"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Xerath",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

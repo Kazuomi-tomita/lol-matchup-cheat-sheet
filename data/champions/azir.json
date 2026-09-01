@@ -1,0 +1,63 @@
+{
+  "id": "azir",
+  "name": "Azir",
+  "attackRange": 525,
+  "spells": {
+    "Q": {
+      "name": "Conquering Sands",
+      "range": "740",
+      "cooldown": [
+        14,
+        12,
+        10,
+        8,
+        6
+      ],
+      "radius": 150,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Arise!",
+      "range": "525",
+      "cooldown": [
+        1.5
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Shifting Sands",
+      "range": "1100",
+      "cooldown": [
+        22,
+        20.5,
+        19,
+        17.5,
+        16
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Emperor's Divide",
+      "range": "400 / 325",
+      "cooldown": [
+        120,
+        105,
+        90
+      ],
+      "radius": 125,
+      "castTime": 0.5,
+      "projectileSpeed": "|}}",
+      "collision": null,
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Azir",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

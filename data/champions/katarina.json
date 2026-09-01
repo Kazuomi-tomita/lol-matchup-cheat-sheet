@@ -1,0 +1,70 @@
+{
+  "id": "katarina",
+  "name": "Katarina",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Bouncing Blade",
+      "range": "625",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "radius": 450,
+      "castTime": 0.25,
+      "projectileSpeed": 1600,
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Preparation",
+      "range": null,
+      "cooldown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Shunpo",
+      "range": "725 / 775",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "castTime": 0.15,
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Death Lotus",
+      "range": null,
+      "cooldown": [
+        75,
+        67.5,
+        60,
+        52.5,
+        45
+      ],
+      "radius": 550,
+      "castTime": "none",
+      "projectileSpeed": 2400,
+      "collision": "unit",
+      "targetType": "proximity"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Katarina",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

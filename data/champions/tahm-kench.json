@@ -1,0 +1,69 @@
+{
+  "id": "tahm-kench",
+  "name": "Tahm Kench",
+  "aliases": [
+    "TahmKench"
+  ],
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Tongue Lash",
+      "range": "900",
+      "cooldown": [
+        7,
+        6.5,
+        6,
+        5.5,
+        5
+      ],
+      "width": 140,
+      "castTime": 0.25,
+      "projectileSpeed": 2800,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Abyssal Dive",
+      "range": "1000 – 1200",
+      "cooldown": [
+        21,
+        20,
+        19,
+        18,
+        17
+      ],
+      "radius": 275,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Thick Skin",
+      "range": null,
+      "cooldown": [
+        3
+      ],
+      "radius": 2400,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Devour",
+      "range": "250",
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Tahm%20Kench",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

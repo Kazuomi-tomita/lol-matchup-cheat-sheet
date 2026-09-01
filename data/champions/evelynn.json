@@ -1,0 +1,61 @@
+{
+  "id": "evelynn",
+  "name": "Evelynn",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Hate Spike",
+      "range": "800 / 680",
+      "cooldown": [
+        4
+      ],
+      "radius": 550,
+      "castTime": "|Initial cast}}|}}",
+      "projectileSpeed": 2400,
+      "collision": "unit",
+      "targetType": null
+    },
+    "W": {
+      "name": "Allure",
+      "range": "1200 – 1600",
+      "cooldown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "E": {
+      "name": "Whiplash",
+      "range": "210",
+      "cooldown": [
+        8
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Last Caress",
+      "range": null,
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "radius": 500,
+      "castTime": 0.35,
+      "collision": null,
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Evelynn",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

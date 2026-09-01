@@ -1,0 +1,63 @@
+{
+  "id": "twitch",
+  "name": "Twitch",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Ambush",
+      "range": null,
+      "cooldown": [
+        16
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Venom Cask",
+      "range": "950",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ],
+      "radius": 300,
+      "castTime": 0.25,
+      "projectileSpeed": 1400,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Contaminate",
+      "range": null,
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "radius": 1200,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "proximity"
+    },
+    "R": {
+      "name": "Spray and Pray",
+      "range": null,
+      "cooldown": [
+        90
+      ],
+      "width": 120,
+      "castTime": "none",
+      "projectileSpeed": 5000,
+      "collision": "unit",
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Twitch",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

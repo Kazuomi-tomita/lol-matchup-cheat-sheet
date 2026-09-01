@@ -1,0 +1,70 @@
+{
+  "id": "ornn",
+  "name": "Ornn",
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Volcanic Rupture",
+      "range": "750",
+      "cooldown": [
+        9,
+        8.5,
+        8,
+        7.5,
+        7
+      ],
+      "width": 130,
+      "castTime": 0.25,
+      "projectileSpeed": 1800,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Bellows Breath",
+      "range": "500 / 560",
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ],
+      "radius": 175,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Searing Charge",
+      "range": "800 / 650",
+      "cooldown": [
+        14,
+        13.5,
+        13,
+        12.5,
+        12
+      ],
+      "castTime": 0.35,
+      "projectileSpeed": 1600,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Call of the Forge God",
+      "range": "300",
+      "cooldown": [
+        140,
+        120,
+        100
+      ],
+      "width": 340,
+      "castTime": 0.5,
+      "projectileSpeed": "||}}",
+      "collision": "unit",
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Ornn",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

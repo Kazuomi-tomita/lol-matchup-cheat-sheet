@@ -1,0 +1,69 @@
+{
+  "id": "talon",
+  "name": "Talon",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Noxian Diplomacy",
+      "range": "575 / 170",
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ],
+      "castTime": 3,
+      "projectileSpeed": 1400,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Rake",
+      "range": "900 / 850",
+      "cooldown": [
+        9,
+        8.5,
+        8,
+        7.5,
+        7
+      ],
+      "width": 150,
+      "castTime": 0.25,
+      "projectileSpeed": "||}}",
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Assassin's Path",
+      "range": "725",
+      "cooldown": [
+        2
+      ],
+      "castTime": "none",
+      "projectileSpeed": 100,
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Shadow Assault",
+      "range": null,
+      "cooldown": [
+        100,
+        90,
+        80,
+        70,
+        60
+      ],
+      "width": 280,
+      "radius": 550,
+      "castTime": "none",
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Talon",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

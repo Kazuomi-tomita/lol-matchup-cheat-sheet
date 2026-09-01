@@ -1,0 +1,65 @@
+{
+  "id": "blitzcrank",
+  "name": "Blitzcrank",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Rocket Grab",
+      "range": "1115 / 1150 / 1020",
+      "cooldown": [
+        20,
+        19,
+        18,
+        17,
+        16
+      ],
+      "width": 140,
+      "castTime": 0.25,
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Overdrive",
+      "range": null,
+      "cooldown": [
+        15
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Power Fist",
+      "range": null,
+      "cooldown": [
+        7,
+        6.5,
+        6,
+        5.5,
+        5
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Static Field",
+      "range": null,
+      "cooldown": [
+        60,
+        50,
+        40,
+        30,
+        20
+      ],
+      "radius": 600,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Blitzcrank",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "malzahar",
+  "name": "Malzahar",
+  "attackRange": 500,
+  "spells": {
+    "Q": {
+      "name": "Call of the Void",
+      "range": "900",
+      "cooldown": [
+        6
+      ],
+      "radius": 200,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Void Swarm",
+      "range": "150",
+      "cooldown": [
+        8
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Malefic Visions",
+      "range": "650",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "radius": 500,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Nether Grasp",
+      "range": "700",
+      "cooldown": [
+        140,
+        125,
+        110,
+        95,
+        80
+      ],
+      "castTime": 0.005,
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Malzahar",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

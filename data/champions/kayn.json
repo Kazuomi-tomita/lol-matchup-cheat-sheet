@@ -1,0 +1,67 @@
+{
+  "id": "kayn",
+  "name": "Kayn",
+  "attackRange": 175,
+  "spells": {
+    "Q": {
+      "name": "Reaping Slash",
+      "range": "350",
+      "cooldown": [
+        7,
+        6.5,
+        6,
+        5.5,
+        5
+      ],
+      "castTime": "none",
+      "projectileSpeed": "<!--X + -->",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Blade's Reach",
+      "range": "700 / 900",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ],
+      "castTime": "|Cast time for Kayn and Darkin Slayer}}|}}",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Shadow Step",
+      "range": null,
+      "cooldown": [
+        21,
+        19,
+        17,
+        15,
+        13
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Umbral Trespass",
+      "range": "550 / 750",
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "[[unit-targeted|unit]] / [[direction-targeted|direction]]"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Kayn",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

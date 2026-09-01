@@ -1,0 +1,64 @@
+{
+  "id": "nasus",
+  "name": "Nasus",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Siphoning Strike",
+      "range": null,
+      "cooldown": [
+        7.5,
+        6.5,
+        5.5,
+        4.5,
+        3.5
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Wither",
+      "range": "700",
+      "cooldown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "E": {
+      "name": "Spirit Fire",
+      "range": "650",
+      "cooldown": [
+        12
+      ],
+      "radius": 400,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Fury of the Sands",
+      "range": null,
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "radius": 400,
+      "castTime": 0.2,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Nasus",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

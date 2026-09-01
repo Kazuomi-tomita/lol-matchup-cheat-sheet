@@ -1,0 +1,54 @@
+{
+  "id": "vi",
+  "name": "Vi",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Vault Breaker",
+      "range": "250 – 725",
+      "cooldown": [
+        12,
+        10.5,
+        9,
+        7.5,
+        6
+      ],
+      "castTime": "none",
+      "projectileSpeed": "1450 / 1472.5 / 1495 / 1517.5 / 1540",
+      "collision": null,
+      "targetType": "[[auto-targeted|auto]] / [[direction-targeted|direction]]"
+    },
+    "W": {
+      "name": "Denting Blows",
+      "range": null,
+      "collision": null,
+      "targetType": "passive"
+    },
+    "E": {
+      "name": "Relentless Force",
+      "range": null,
+      "radius": 600,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Cease and Desist",
+      "range": "800",
+      "cooldown": [
+        140,
+        127.5,
+        115,
+        102.5,
+        90
+      ],
+      "castTime": 0.25,
+      "projectileSpeed": 800,
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Vi",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

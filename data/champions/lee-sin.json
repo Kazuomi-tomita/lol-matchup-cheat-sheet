@@ -1,0 +1,59 @@
+{
+  "id": "lee-sin",
+  "name": "Lee Sin",
+  "aliases": [
+    "LeeSin"
+  ],
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Sonic Wave",
+      "range": "1200",
+      "width": 120,
+      "radius": 400,
+      "castTime": 0.25,
+      "projectileSpeed": 1800,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Safeguard",
+      "range": "700",
+      "cooldown": [
+        7
+      ],
+      "castTime": "none",
+      "projectileSpeed": "1350 / 100",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "E": {
+      "name": "Tempest",
+      "range": null,
+      "cooldown": [
+        8
+      ],
+      "radius": 450,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Dragon's Rage",
+      "range": "375",
+      "cooldown": [
+        110,
+        97.5,
+        85,
+        72.5,
+        60
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Lee%20Sin",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

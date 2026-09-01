@@ -1,0 +1,73 @@
+{
+  "id": "irelia",
+  "name": "Irelia",
+  "attackRange": 200,
+  "spells": {
+    "Q": {
+      "name": "Bladesurge",
+      "range": "600",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "castTime": "none",
+      "projectileSpeed": "1400 / 100",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Defiant Dance",
+      "range": "775 / 895",
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ],
+      "width": 240,
+      "radius": 300,
+      "castTime": "||Recast}}}}",
+      "collision": null,
+      "targetType": null
+    },
+    "E": {
+      "name": "Flawless Duet",
+      "range": "775",
+      "cooldown": [
+        16,
+        14.5,
+        13,
+        11.5,
+        10
+      ],
+      "width": 140,
+      "castTime": null,
+      "projectileSpeed": "| s|Convergence missile always takes this amount of time to travel between blades regardless of range}}}}",
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Vanguard's Edge",
+      "range": "1000",
+      "cooldown": [
+        125,
+        115,
+        105,
+        95,
+        85
+      ],
+      "width": 320,
+      "castTime": 0.4,
+      "projectileSpeed": 2000,
+      "collision": "unit",
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Irelia",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

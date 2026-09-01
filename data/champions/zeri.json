@@ -1,0 +1,64 @@
+{
+  "id": "zeri",
+  "name": "Zeri",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Burst Fire",
+      "range": "750 / 100",
+      "width": 80,
+      "projectileSpeed": "|}}",
+      "collision": "unit",
+      "targetType": "direction <!-- internally location -->"
+    },
+    "W": {
+      "name": "Ultrashock Laser",
+      "range": "1200 / 50 / 1550 / 1600",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "width": 80,
+      "castTime": "}}",
+      "projectileSpeed": 2500,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Spark Surge",
+      "range": "300",
+      "cooldown": [
+        24,
+        22.5,
+        21,
+        19.5,
+        18
+      ],
+      "castTime": "None",
+      "projectileSpeed": "600 / 100",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Lightning Crash",
+      "range": null,
+      "cooldown": [
+        80,
+        77.5,
+        75,
+        72.5,
+        70
+      ],
+      "radius": 825,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Zeri",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

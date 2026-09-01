@@ -1,0 +1,68 @@
+{
+  "id": "chogath",
+  "name": "Cho'Gath",
+  "aliases": [
+    "Chogath"
+  ],
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Rupture",
+      "range": "950",
+      "cooldown": [
+        6
+      ],
+      "radius": 125,
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Feral Scream",
+      "range": "650",
+      "cooldown": [
+        11,
+        10.5,
+        10,
+        9.5,
+        9
+      ],
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Vorpal Spikes",
+      "range": "650 / 25",
+      "cooldown": [
+        8,
+        7,
+        6,
+        5,
+        4
+      ],
+      "width": 1,
+      "castTime": "none",
+      "projectileSpeed": 1475,
+      "collision": "unit",
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Feast",
+      "range": "175",
+      "cooldown": [
+        80,
+        75,
+        70,
+        65,
+        60
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Cho'Gath",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "senna",
+  "name": "Senna",
+  "attackRange": 600,
+  "spells": {
+    "Q": {
+      "name": "Piercing Darkness",
+      "range": "600 / 1100",
+      "cooldown": [
+        15
+      ],
+      "width": 100,
+      "castTime": "80 / 2",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Last Embrace",
+      "range": "1300",
+      "cooldown": [
+        11
+      ],
+      "width": 140,
+      "radius": 280,
+      "castTime": 0.25,
+      "projectileSpeed": 1200,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Curse of the Black Mist",
+      "range": null,
+      "cooldown": [
+        26,
+        24.5,
+        23,
+        21.5,
+        20
+      ],
+      "radius": 400,
+      "castTime": 1,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Dawning Shadow",
+      "range": null,
+      "cooldown": [
+        140,
+        130,
+        120,
+        110,
+        100
+      ],
+      "width": 320,
+      "castTime": 1,
+      "projectileSpeed": 20000,
+      "collision": "unit",
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Senna",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "sett",
+  "name": "Sett",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Knuckle Down",
+      "range": null,
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Haymaker",
+      "range": "25 / 720 / 745",
+      "cooldown": [
+        18,
+        16.5,
+        15,
+        13.5,
+        12
+      ],
+      "width": 300,
+      "castTime": 0.75,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Facebreaker",
+      "range": "450",
+      "cooldown": [
+        16,
+        14.5,
+        13,
+        11.5,
+        10
+      ],
+      "width": 280,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "The Show Stopper",
+      "range": "400",
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "radius": 600,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Sett",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

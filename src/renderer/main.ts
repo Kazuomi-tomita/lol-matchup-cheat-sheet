@@ -5,9 +5,14 @@ const app = document.querySelector<HTMLDivElement>("#app")!;
 const slots: SpellSlot[] = ["Q", "W", "E", "R"];
 const escapeHtml = (value: unknown) => String(value).replace(/[&<>"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[char]!);
 const displayRange = (value: number | string | null) => value == null ? "—" : escapeHtml(value);
+const displayCooldown = (cooldown: number[] | undefined) => cooldown?.length ? `${cooldown.map(escapeHtml).join(" / ")}s` : "—";
 
-function rangeRows(you: ChampionData, enemy: ChampionData): string {
-  return slots.map((slot) => `<div class="stat-row"><span class="slot">${slot}</span><span>${displayRange(you.spells[slot].range)}</span><span class="enemy-value">${displayRange(enemy.spells[slot].range)}</span></div>`).join("");
+function rangeRows(you: ChampionData, enemy: ChampionData, keyCooldowns: SpellSlot[]): string {
+  const keySlots = new Set(keyCooldowns);
+  return slots.map((slot) => {
+    const isKey = keySlots.has(slot);
+    return `<div class="stat-row${isKey ? " key-cooldown" : ""}"><span class="slot">${slot}${isKey ? `<small aria-label="Key cooldown">!</small>` : ""}</span><span>${displayRange(you.spells[slot].range)}</span><span class="enemy-value">${displayRange(enemy.spells[slot].range)}</span><span class="cd-value">${displayCooldown(enemy.spells[slot].cooldown)}</span></div>`;
+  }).join("");
 }
 
 function render(state: MatchupState): void {
@@ -28,12 +33,9 @@ function render(state: MatchupState): void {
     return;
   }
   const { you, enemy, enemyMeta } = state;
-  const cooldowns = (enemyMeta?.keyCooldowns ?? []).map((slot) => {
-    const spell = enemy.spells[slot];
-    return `<div class="cooldown"><div><b>${slot}</b><span>${escapeHtml(spell.name)}</span></div><strong>${spell.cooldown?.join(" / ") ?? "—"}<small>s</small></strong></div>`;
-  }).join("") || `<p class="empty">No key cooldown metadata</p>`;
-  const combos = (enemyMeta?.dangerCombos ?? []).map((combo) => `<div class="danger"><span>${escapeHtml(combo.combo.replace(">", " → "))}</span><strong>${combo.effectiveRange}</strong></div>`).join("") || `<p class="empty">No danger combo metadata</p>`;
-  app.innerHTML = `<main><header><span class="eyebrow">${state.status === "manual" ? "MANUAL MATCHUP" : "LIVE MATCHUP"}</span><h1>${escapeHtml(you.name)} <i>vs</i> ${escapeHtml(enemy.name)}</h1></header><section><h2>AA RANGE</h2><div class="stat-head"><span></span><span>YOU</span><span>ENEMY</span></div><div class="stat-row aa"><span class="slot">AA</span><span>${you.attackRange}</span><span class="enemy-value">${enemy.attackRange}</span></div></section><section><h2>SKILL RANGE</h2><div class="stat-head"><span></span><span>YOU</span><span>ENEMY</span></div>${rangeRows(you, enemy)}</section><section><h2>DANGER RANGE</h2>${combos}</section><section><h2>KEY COOLDOWNS</h2>${cooldowns}</section><button id="change-enemy">Change enemy</button></main>`;
+  const keyCooldowns = enemyMeta?.keyCooldowns ?? [];
+  const combos = (enemyMeta?.dangerCombos ?? []).map((combo) => `<div class="danger"><span>${escapeHtml(combo.combo.replace(">", " → "))}</span><strong>${escapeHtml(combo.effectiveRange)}</strong></div>`).join("") || `<p class="empty danger-empty">No danger metadata</p>`;
+  app.innerHTML = `<main><header><span class="eyebrow">${state.status === "manual" ? "MANUAL MATCHUP" : "LIVE MATCHUP"}</span><h1>${escapeHtml(you.name)} <i>vs</i> ${escapeHtml(enemy.name)}</h1></header><section class="range-cooldown"><h2>RANGE &amp; COOLDOWN</h2><div class="stat-head"><span>SLOT</span><span>YOU</span><span>ENEMY</span><span>CD</span></div><div class="stat-row aa"><span class="slot">AA</span><span>${displayRange(you.attackRange)}</span><span class="enemy-value">${displayRange(enemy.attackRange)}</span><span class="cd-value">—</span></div>${rangeRows(you, enemy, keyCooldowns)}</section><section class="danger-section"><h2>DANGER</h2>${combos}</section><button id="change-enemy">Change enemy</button></main>`;
   document.querySelector("#change-enemy")?.addEventListener("click", () => render({ ...state, status: "manual", enemy: undefined, message: "敵チャンピオンを選択してください" }));
 }
 

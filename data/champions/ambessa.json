@@ -1,0 +1,70 @@
+{
+  "id": "ambessa",
+  "name": "Ambessa",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Cunning Sweep",
+      "range": null,
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "radius": 275,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Repudiation",
+      "range": null,
+      "cooldown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "radius": 325,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Lacerate",
+      "range": null,
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ],
+      "radius": 325,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Public Execution",
+      "range": "1250",
+      "cooldown": [
+        130,
+        122.5,
+        115,
+        107.5,
+        100
+      ],
+      "width": 130,
+      "castTime": 0.7,
+      "collision": null,
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Ambessa",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

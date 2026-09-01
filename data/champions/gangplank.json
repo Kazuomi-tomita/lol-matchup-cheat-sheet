@@ -1,0 +1,58 @@
+{
+  "id": "gangplank",
+  "name": "Gangplank",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Parrrley",
+      "range": "625",
+      "cooldown": [
+        4.5
+      ],
+      "castTime": 0.25,
+      "projectileSpeed": 2600,
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Remove Scurvy",
+      "range": null,
+      "cooldown": [
+        22,
+        20,
+        18,
+        16,
+        14
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Powder Keg",
+      "range": "1000",
+      "radius": 360,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Cannon Barrage",
+      "range": null,
+      "cooldown": [
+        160,
+        150,
+        140,
+        130,
+        120
+      ],
+      "radius": 580,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Gangplank",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

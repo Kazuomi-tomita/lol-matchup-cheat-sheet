@@ -1,0 +1,60 @@
+{
+  "id": "heimerdinger",
+  "name": "Heimerdinger",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "H-28G Evolution Turret",
+      "range": "350",
+      "cooldown": [
+        1
+      ],
+      "castTime": 0.25,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Hextech Micro-Rockets",
+      "range": "1150 / 1350 / 200",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "castTime": 0.25,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "E": {
+      "name": "CH-2 Electron Storm Grenade",
+      "range": "925",
+      "cooldown": [
+        11
+      ],
+      "radius": 250,
+      "castTime": 0.25,
+      "projectileSpeed": 1200,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "R": {
+      "name": "UPGRADE!!!",
+      "range": null,
+      "cooldown": [
+        100,
+        92.5,
+        85,
+        77.5,
+        70
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Heimerdinger",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

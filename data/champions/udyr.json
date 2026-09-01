@@ -1,0 +1,52 @@
+{
+  "id": "udyr",
+  "name": "Udyr",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Wilding Claw",
+      "range": null,
+      "cooldown": [
+        6
+      ],
+      "radius": 450,
+      "castTime": "none",
+      "collision": "unit",
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Iron Mantle",
+      "range": null,
+      "cooldown": [
+        6
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Blazing Stampede",
+      "range": null,
+      "cooldown": [
+        6
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "R": {
+      "name": "Wingborne Storm",
+      "range": null,
+      "cooldown": [
+        6
+      ],
+      "radius": 370,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Udyr",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "olaf",
+  "name": "Olaf",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Undertow",
+      "range": "425 / 1000",
+      "cooldown": [
+        9
+      ],
+      "width": 180,
+      "radius": 100,
+      "castTime": 0.25,
+      "projectileSpeed": 1600,
+      "collision": null,
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Tough It Out",
+      "range": null,
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Reckless Swing",
+      "range": "325",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "castTime": "0.25 / 0.2313 / 0.2125 / 0.1937 / 0.175",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Ragnarok",
+      "range": null,
+      "cooldown": [
+        100,
+        95,
+        90,
+        85,
+        80
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Olaf",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

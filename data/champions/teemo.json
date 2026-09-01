@@ -1,0 +1,48 @@
+{
+  "id": "teemo",
+  "name": "Teemo",
+  "attackRange": 500,
+  "spells": {
+    "Q": {
+      "name": "Blinding Dart",
+      "range": "680",
+      "cooldown": [
+        7
+      ],
+      "castTime": 0.25,
+      "projectileSpeed": 2500,
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Move Quick",
+      "range": null,
+      "cooldown": [
+        14
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Toxic Shot",
+      "range": null,
+      "collision": null,
+      "targetType": "passive"
+    },
+    "R": {
+      "name": "Noxious Trap",
+      "range": "600 – 900",
+      "cooldown": [
+        0.25
+      ],
+      "radius": 450,
+      "castTime": 0.25,
+      "collision": "unit",
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Teemo",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

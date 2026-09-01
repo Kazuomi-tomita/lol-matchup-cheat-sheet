@@ -1,0 +1,66 @@
+{
+  "id": "illaoi",
+  "name": "Illaoi",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Tentacle Smash",
+      "range": "52 / 75 / 802",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "width": 200,
+      "castTime": 0.75,
+      "collision": null,
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Harsh Lesson",
+      "range": null,
+      "cooldown": [
+        4
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Test of Spirit",
+      "range": "950 / 100",
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "width": 100,
+      "castTime": 0.25,
+      "projectileSpeed": 1900,
+      "collision": null,
+      "targetType": "location"
+    },
+    "R": {
+      "name": "Leap of Faith",
+      "range": null,
+      "cooldown": [
+        120,
+        107.5,
+        95,
+        82.5,
+        70
+      ],
+      "radius": 500,
+      "castTime": 0.5,
+      "collision": null,
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Illaoi",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

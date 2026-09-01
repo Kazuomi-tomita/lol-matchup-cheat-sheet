@@ -1,0 +1,57 @@
+{
+  "id": "annie",
+  "name": "Annie",
+  "attackRange": 625,
+  "spells": {
+    "Q": {
+      "name": "Disintegrate",
+      "range": "625",
+      "cooldown": [
+        4
+      ],
+      "castTime": 0.25,
+      "projectileSpeed": 1400,
+      "collision": "unit",
+      "targetType": "unit"
+    },
+    "W": {
+      "name": "Incinerate",
+      "range": null,
+      "cooldown": [
+        7
+      ],
+      "radius": 600,
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "E": {
+      "name": "Molten Shield",
+      "range": "800",
+      "cooldown": [
+        10
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "[[unit-targeted|unit]] / [[auto-targeted|auto]]"
+    },
+    "R": {
+      "name": "Summon: Tibbers",
+      "range": "600",
+      "cooldown": [
+        130,
+        122.5,
+        115,
+        107.5,
+        100
+      ],
+      "radius": 250,
+      "castTime": "|Initial cast}}|}}",
+      "collision": null,
+      "targetType": "location"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Annie",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

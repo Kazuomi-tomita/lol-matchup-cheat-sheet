@@ -1,0 +1,72 @@
+{
+  "id": "braum",
+  "name": "Braum",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Winter's Bite",
+      "range": "1050 / 990",
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ],
+      "width": 120,
+      "castTime": 0.25,
+      "projectileSpeed": 1700,
+      "collision": "unit",
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Stand Behind Me",
+      "range": "650",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "castTime": "none",
+      "projectileSpeed": "<!--|Dash speed}}-->",
+      "collision": null,
+      "targetType": "unit"
+    },
+    "E": {
+      "name": "Unbreakable",
+      "range": null,
+      "cooldown": [
+        16,
+        14,
+        12,
+        10,
+        8
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Glacial Fissure",
+      "range": "1200",
+      "cooldown": [
+        130,
+        122.5,
+        115,
+        107.5,
+        100
+      ],
+      "width": 230,
+      "radius": 300,
+      "castTime": 0.5,
+      "projectileSpeed": 1400,
+      "collision": "unit",
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Braum",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

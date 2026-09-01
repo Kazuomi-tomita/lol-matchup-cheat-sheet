@@ -1,0 +1,66 @@
+{
+  "id": "ksante",
+  "name": "K'Sante",
+  "aliases": [
+    "KSante"
+  ],
+  "attackRange": 150,
+  "spells": {
+    "Q": {
+      "name": "Ntofo Strikes",
+      "range": "465 / 930",
+      "width": 100,
+      "castTime": "0.45 / 0.425 / 0.4 / 0.375 / 0.35",
+      "collision": null,
+      "targetType": "direction"
+    },
+    "W": {
+      "name": "Path Maker",
+      "range": "450",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "castTime": "none",
+      "projectileSpeed": "||}} <!--Needs to be confirmed-->",
+      "collision": null,
+      "targetType": null
+    },
+    "E": {
+      "name": "Footwork",
+      "range": "250 / 550",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ],
+      "castTime": "none",
+      "projectileSpeed": 100,
+      "collision": null,
+      "targetType": null
+    },
+    "R": {
+      "name": "All Out",
+      "range": "300",
+      "cooldown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "castTime": 0.4,
+      "projectileSpeed": 2000,
+      "collision": null,
+      "targetType": "unit"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/K'Sante",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "singed",
+  "name": "Singed",
+  "attackRange": 125,
+  "spells": {
+    "Q": {
+      "name": "Poison Trail",
+      "range": null,
+      "radius": 180,
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    },
+    "W": {
+      "name": "Mega Adhesive",
+      "range": "1000",
+      "cooldown": [
+        17,
+        16,
+        15,
+        14,
+        13
+      ],
+      "radius": 265,
+      "castTime": 0.25,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "E": {
+      "name": "Fling",
+      "range": "125",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ],
+      "castTime": 0.25,
+      "collision": null,
+      "targetType": "unit"
+    },
+    "R": {
+      "name": "Insanity Potion",
+      "range": null,
+      "cooldown": [
+        100
+      ],
+      "castTime": "none",
+      "collision": null,
+      "targetType": "auto"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Singed",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}

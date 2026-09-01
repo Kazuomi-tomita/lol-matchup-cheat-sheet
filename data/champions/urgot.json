@@ -1,0 +1,73 @@
+{
+  "id": "urgot",
+  "name": "Urgot",
+  "attackRange": 350,
+  "spells": {
+    "Q": {
+      "name": "Corrosive Charge",
+      "range": "800",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ],
+      "radius": 210,
+      "castTime": 0.25,
+      "collision": "unit",
+      "targetType": "location"
+    },
+    "W": {
+      "name": "Purge",
+      "range": null,
+      "cooldown": [
+        12,
+        9,
+        6,
+        3,
+        0
+      ],
+      "radius": 490,
+      "castTime": "none",
+      "projectileSpeed": 2500,
+      "collision": "unit",
+      "targetType": "auto"
+    },
+    "E": {
+      "name": "Disdain",
+      "range": "475 / 450",
+      "cooldown": [
+        16,
+        15.5,
+        15,
+        14.5,
+        14
+      ],
+      "castTime": 0.45,
+      "projectileSpeed": 1200,
+      "collision": null,
+      "targetType": "direction"
+    },
+    "R": {
+      "name": "Fear Beyond Death",
+      "range": "2500",
+      "cooldown": [
+        100,
+        92.5,
+        85,
+        77.5,
+        70
+      ],
+      "width": 160,
+      "radius": 600,
+      "castTime": 0.5,
+      "projectileSpeed": 3200,
+      "collision": "unit",
+      "targetType": null
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Urgot",
+  "patch": "current",
+  "retrievedAt": "2026-08-30"
+}
