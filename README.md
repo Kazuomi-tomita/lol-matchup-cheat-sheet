@@ -58,6 +58,20 @@ npm run sync:champions
 
 このリポジトリのソースコード公開と、プレイヤー向けバイナリの一般配布を分けて扱います。一般配布を開始する前にRiot Developer Portalへ製品を登録し、説明とメタデータを実際の機能に合わせて維持します。本ツールは、試合前から確認可能な静的ゲームデータを表示する補助ツールとして登録する方針です。
 
+## Privacy
+
+インストールされたアプリは、ユーザーのPC上でLeague of Legendsが提供するローカルAPIだけを参照します。プレイヤー情報や試合情報を外部のネットワークシステムへ転送しません。開発者向けの `npm run sync:champions` を明示的に実行した場合に限り、公開ゲームデータを更新するためLeague of Legends Wikiへ接続します。
+
+## Code signing policy
+
+Free code signing provided by [SignPath.io](https://signpath.io/), certificate by [SignPath Foundation](https://signpath.org/).
+
+- Committers and reviewers: [repository owner and collaborators](https://github.com/Kazuomi-tomita/lol-matchup-cheat-sheet/graphs/contributors)
+- Approvers: [repository owner](https://github.com/Kazuomi-tomita)
+- GitHub-hosted Actions runners build release artifacts from this public repository.
+- Release signing requests require manual approval by an approver.
+- Only artifacts built from this project's source and release workflow may be submitted for signing.
+
 ## Legal notice
 
 LoL Matchup Viewer isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
