@@ -53,6 +53,7 @@ function createWindow(): void {
     minHeight: 520,
     backgroundColor: "#08111d",
     title: "LoL Matchup Viewer",
+    icon: path.join(app.getAppPath(), "build", "icon.png"),
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
       contextIsolation: true,

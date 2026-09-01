@@ -1,7 +1,7 @@
 # LoL Matchup Viewer 現行仕様書
 
 最終確認日: 2026-09-01  
-対象バージョン: 0.1.2  
+対象バージョン: 0.1.3
 根拠: 現在のソースコードおよび `data/` の実体
 
 ## 1. 製品概要
@@ -15,7 +15,7 @@ Electron 製の単一ウィンドウアプリで、LoL クライアントが試�
 - 対象 OS: Windows（NSIS インストーラー）
 - アプリ名: LoL Matchup Viewer
 - アプリ ID: `com.lolmatchup.viewer`
-- 現行バージョン: `0.1.2`
+- 現行バージョン: `0.1.3`
 - インストール先: インストーラー上で利用者が変更可能
 - 実行時の Node.js: 不要
 - ネットワーク利用:
@@ -194,7 +194,8 @@ UI は `waiting`、`detected`、`manual`、`error` の4状態を持つ。
 
 ### 4.4 チャンピオン名の解決
 
-- `rawChampionName` があれば先頭の `game_character_displayname_` を除去して使用
+- `rawChampionName` があれば通常形式の先頭 `game_character_displayname_`、またはCPU戦で使われる
+  `Character_..._Name` の外側を除去して使用
 - なければローカライズされ得る `championName` を使用
 - ローカルデータとの照合時は Unicode NFKC 正規化、小文字化を行い、文字・数字以外をすべて除去
 - `id`、英語 `name`、`aliases` のいずれかと一致すれば同一チャンピオンとする
@@ -354,4 +355,3 @@ Electron の `contextIsolation` は有効、`nodeIntegration` は無効。レン
 - UI フレームワークなし（DOM文字列描画 + CSS）
 - 永続DBなし（JSONファイル）
 - electron-builder / NSIS による Windows 配布
-

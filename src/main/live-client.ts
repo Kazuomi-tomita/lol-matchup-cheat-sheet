@@ -16,10 +16,23 @@ interface LiveGameData {
 
 export interface DetectedMatchup { you: string; enemy?: string; enemyNames: string[] }
 
+export function championNameFromRaw(rawChampionName?: string): string | undefined {
+  if (!rawChampionName) return undefined;
+
+  // Human players normally use "game_character_displayname_Ahri", while bots
+  // can use the resource-key form "Character_Ahri_Name".
+  const displayName = rawChampionName.match(/^game_character_displayname_(.+)$/i);
+  if (displayName) return displayName[1];
+
+  const resourceKey = rawChampionName.match(/^Character_(.+)_Name$/i);
+  if (resourceKey) return resourceKey[1];
+
+  return rawChampionName;
+}
+
 function stableChampionName(player: LivePlayer): string {
-  // championName is localized (e.g. Japanese), while rawChampionName contains
-  // a locale-independent key such as "game_character_displayname_Ahri".
-  return player.rawChampionName?.replace(/^game_character_displayname_/i, "") || player.championName;
+  // championName is localized, so prefer the locale-independent raw key.
+  return championNameFromRaw(player.rawChampionName) || player.championName;
 }
 
 function fetchGameData(): Promise<LiveGameData> {

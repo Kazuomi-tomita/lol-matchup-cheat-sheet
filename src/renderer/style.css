@@ -26,7 +26,7 @@ h2 { color: #8da2b5; font-size: 11px; letter-spacing: .19em; margin: 0 0 11px; }
 .danger span { font-weight: 750; }
 .danger strong { color: #ff9b72; font-size: 18px; }
 .danger-empty { margin: 0; padding: 5px 0; }
-.waiting { display: grid; min-height: 100vh; place-content: center; text-align: center; }
+.waiting { display: flex; min-height: 100vh; flex-direction: column; justify-content: center; text-align: center; }
 .waiting h1 { font-size: 25px; text-transform: none; }
 .waiting p, .picker p, .empty { color: #6f879b; font-size: 12px; line-height: 1.6; }
 .orb { width: 44px; height: 44px; margin: 0 auto 22px; border: 2px solid #244b64; border-top-color: #5ed3df; border-radius: 50%; animation: spin 1.2s linear infinite; }
@@ -35,6 +35,8 @@ h2 { color: #8da2b5; font-size: 11px; letter-spacing: .19em; margin: 0 0 11px; }
 select, button { width: 100%; border: 1px solid #29455c; border-radius: 4px; background: #091724; color: #dce8f0; padding: 12px; }
 button { color: #71899d; cursor: pointer; margin-top: 0; padding: 6px; font-size: 11px; border-color: transparent; background: transparent; }
 button:hover { color: #b8c9d6; }
+.legal-notice { margin-top: 14px; border-top: 1px solid #14283a; padding-top: 10px; color: #526d85; font-size: 9px; line-height: 1.45; text-align: left; }
+.waiting .legal-notice { margin-top: 34px; }
 @media (max-width: 560px) {
   main { padding-left: 22px; padding-right: 22px; }
   .stat-row .enemy-value { font-size: 17px; }

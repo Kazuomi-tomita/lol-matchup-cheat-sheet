@@ -3,4 +3,5 @@ dist/
 dist-electron/
 release/
 release-fixed/
+data/raw/lol-wiki/
 *.log
