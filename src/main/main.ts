@@ -19,7 +19,7 @@ async function poll(): Promise<void> {
     const detected = await detectMatchup();
     const you = store.champion(detected.you);
     const enemy = detected.enemy ? store.champion(detected.enemy) : undefined;
-    const fingerprint = `${detected.you}:${detected.enemy ?? "manual"}`;
+    const fingerprint = `${detected.you}:${detected.enemy ?? "manual"}:${JSON.stringify(detected.abilityLevels)}`;
     if (fingerprint === lastFingerprint) return;
     lastFingerprint = fingerprint;
 
@@ -30,13 +30,13 @@ async function poll(): Promise<void> {
     if (!enemy) {
       const candidates = detected.enemyNames.map((name) => store.champion(name)).filter(Boolean);
       publish({
-        status: "manual", you,
+        status: "manual", you, yourAbilityLevels: detected.abilityLevels,
         candidates: candidates.length ? candidates as NonNullable<typeof candidates[number]>[] : store.allChampions(),
         message: "Enemy laner could not be detected. Select them manually."
       });
       return;
     }
-    publish({ status: "detected", you, enemy, enemyMeta: store.meta(enemy.id), candidates: store.allChampions() });
+    publish({ status: "detected", you, enemy, enemyMeta: store.meta(enemy.id), yourAbilityLevels: detected.abilityLevels, candidates: store.allChampions() });
   } catch {
     if (state.status !== "waiting") {
       lastFingerprint = "";

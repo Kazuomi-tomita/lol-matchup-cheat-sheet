@@ -10,11 +10,21 @@ interface LivePlayer {
 }
 
 interface LiveGameData {
-  activePlayer?: { summonerName?: string; riotId?: string };
+  activePlayer?: {
+    summonerName?: string;
+    riotId?: string;
+  };
   allPlayers?: LivePlayer[];
 }
 
-export interface DetectedMatchup { you: string; enemy?: string; enemyNames: string[] }
+type LiveAbilities = Partial<Record<"Q" | "W" | "E" | "R", { abilityLevel?: number }>>;
+
+export interface DetectedMatchup {
+  you: string;
+  enemy?: string;
+  enemyNames: string[];
+  abilityLevels: Partial<Record<"Q" | "W" | "E" | "R", number>>;
+}
 
 export function championNameFromRaw(rawChampionName?: string): string | undefined {
   if (!rawChampionName) return undefined;
@@ -35,12 +45,12 @@ function stableChampionName(player: LivePlayer): string {
   return championNameFromRaw(player.rawChampionName) || player.championName;
 }
 
-function fetchGameData(): Promise<LiveGameData> {
+function fetchLiveData<T>(path: string): Promise<T> {
   return new Promise((resolve, reject) => {
     const request = https.get({
       hostname: "127.0.0.1",
       port: 2999,
-      path: "/liveclientdata/allgamedata",
+      path,
       rejectUnauthorized: false,
       timeout: 1400
     }, (response) => {
@@ -53,7 +63,7 @@ function fetchGameData(): Promise<LiveGameData> {
       response.setEncoding("utf8");
       response.on("data", (chunk) => { body += chunk; });
       response.on("end", () => {
-        try { resolve(JSON.parse(body) as LiveGameData); }
+        try { resolve(JSON.parse(body) as T); }
         catch (error) { reject(error); }
       });
     });
@@ -67,7 +77,10 @@ const sameIdentity = (player: LivePlayer, active: LiveGameData["activePlayer"]) 
     (active.summonerName && player.summonerName === active.summonerName)));
 
 export async function detectMatchup(): Promise<DetectedMatchup> {
-  const data = await fetchGameData();
+  const [data, abilities] = await Promise.all([
+    fetchLiveData<LiveGameData>("/liveclientdata/allgamedata"),
+    fetchLiveData<LiveAbilities>("/liveclientdata/activeplayerabilities").catch(() => ({}))
+  ]);
   const players = data.allPlayers ?? [];
   const you = players.find((player) => sameIdentity(player, data.activePlayer));
   if (!you) throw new Error("Could not identify the active player");
@@ -81,6 +94,13 @@ export async function detectMatchup(): Promise<DetectedMatchup> {
   return {
     you: stableChampionName(you),
     enemy: enemy ? stableChampionName(enemy) : undefined,
-    enemyNames: enemies.map(stableChampionName)
+    enemyNames: enemies.map(stableChampionName),
+    abilityLevels: Object.fromEntries(
+      Object.entries(abilities)
+        .filter((entry): entry is ["Q" | "W" | "E" | "R", { abilityLevel: number }] =>
+          (["Q", "W", "E", "R"] as string[]).includes(entry[0]) &&
+          typeof entry[1]?.abilityLevel === "number")
+        .map(([slot, ability]) => [slot, ability.abilityLevel])
+    )
   };
 }

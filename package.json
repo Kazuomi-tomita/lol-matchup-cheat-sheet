@@ -1,6 +1,6 @@
 {
   "name": "lol-matchup-viewer",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Instant LoL lane matchup ranges and key cooldowns.",
   "main": "dist-electron/main/main.js",
   "author": "LoL Matchup Viewer contributors",

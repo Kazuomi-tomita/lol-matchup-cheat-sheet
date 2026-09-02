@@ -1,9 +1,26 @@
 export type SpellSlot = "Q" | "W" | "E" | "R";
 
+export interface VariableRange {
+  min: number;
+  max: number;
+}
+
+export interface AbilityVariant {
+  label: string;
+  name?: string;
+  range: number | string | null | VariableRange;
+  note?: string;
+}
+
 export interface SpellData {
   name: string;
-  range: number | string | null;
+  range: number | string | null | VariableRange;
   cooldown?: number[];
+  type?: "normal" | "variable" | "multi" | "derived" | "compound" | "utility";
+  variants?: AbilityVariant[];
+  expandable?: boolean;
+  displayName?: string;
+  note?: string;
   width?: number | null;
   radius?: number | null;
   castTime?: number | string | null;
@@ -12,12 +29,20 @@ export interface SpellData {
   targetType?: string | null;
 }
 
+export interface ChampionForm {
+  id: string;
+  label: string;
+  attackRange?: number;
+  spells: Partial<Record<SpellSlot, SpellData>>;
+}
+
 export interface ChampionData {
   id: string;
   name: string;
   aliases?: string[];
   attackRange: number;
   spells: Record<SpellSlot, SpellData>;
+  forms?: ChampionForm[];
   source?: string;
   patch?: string;
   retrievedAt?: string;
@@ -34,6 +59,7 @@ export interface MatchupState {
   you?: ChampionData;
   enemy?: ChampionData;
   enemyMeta?: MatchupMeta;
+  yourAbilityLevels?: Partial<Record<SpellSlot, number>>;
   candidates: ChampionData[];
   message?: string;
 }

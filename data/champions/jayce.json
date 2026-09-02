@@ -54,7 +54,73 @@
       "targetType": "auto"
     }
   },
+  "forms": [
+    {
+      "id": "cannon",
+      "label": "CANNON",
+      "attackRange": 500,
+      "spells": {
+        "Q": {
+          "name": "Shock Blast",
+          "range": 1050,
+          "cooldown": [
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "type": "derived",
+          "variants": [
+            {
+              "label": "Q",
+              "range": 1050
+            },
+            {
+              "label": "EQ",
+              "range": 1600
+            }
+          ]
+        },
+        "W": {
+          "name": "Hyper Charge",
+          "range": null,
+          "cooldown": [
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        "E": {
+          "name": "Acceleration Gate",
+          "range": 650,
+          "cooldown": [
+            16,
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        "R": {
+          "name": "Transform Mercury Hammer",
+          "range": null,
+          "cooldown": [
+            6
+          ]
+        }
+      }
+    },
+    {
+      "id": "hammer",
+      "label": "HAMMER",
+      "attackRange": 125,
+      "spells": {}
+    }
+  ],
   "source": "https://wiki.leagueoflegends.com/en-us/Jayce",
   "patch": "current",
-  "retrievedAt": "2026-08-30"
+  "retrievedAt": "2026-09-02"
 }

@@ -8,12 +8,47 @@ h1 { margin: 7px 0 0; text-transform: uppercase; font-size: clamp(25px, 7vw, 35p
 h1 i { color: #698199; font-family: Georgia, serif; font-size: .65em; font-weight: 400; text-transform: lowercase; padding: 0 5px; }
 section { margin: 0 0 18px; }
 h2 { color: #8da2b5; font-size: 11px; letter-spacing: .19em; margin: 0 0 11px; }
+.section-title { display: flex; align-items: flex-start; justify-content: space-between; }
+.section-title button { width: auto; margin: -6px 0 5px; padding: 5px 7px; color: #7891a5; font-size: 9px; font-weight: 800; letter-spacing: .08em; }
 .stat-head, .stat-row { display: grid; grid-template-columns: .65fr 1fr 1fr 1.45fr; align-items: center; }
 .stat-head { color: #526d85; font-size: 10px; font-weight: 800; padding: 0 12px 5px; text-align: right; }
 .stat-head span:first-child { text-align: left; }
 .stat-row { min-height: 40px; padding: 0 12px; border-top: 1px solid #14283a; text-align: right; font-variant-numeric: tabular-nums; }
 .stat-row .slot { color: #a9bbca; text-align: left; font-weight: 800; }
 .stat-row span { font-size: 16px; }
+.ability-value { display: flex; flex-direction: column; align-items: flex-end; justify-content: center; line-height: 1.15; }
+.utility-value { color: #8199ac; font-size: 11px; font-weight: 700; white-space: nowrap; }
+.enemy-value .utility-value { color: #c59b67; }
+.ability-expand { width: auto; padding: 3px 0; color: inherit; font-size: 11px; font-weight: 750; white-space: nowrap; }
+.ability-expand b { color: #56c9d8; }
+.ability-expansion { margin: -1px 12px 5px; padding: 7px 10px; border: 1px solid #1b3549; border-radius: 4px; background: #091925; }
+.ability-expansion.you { margin-right: calc(41% + 12px); }
+.ability-expansion.enemy { margin-left: calc(25% + 12px); border-color: #493a28; }
+.ability-expansion div { display: grid; grid-template-columns: 30px minmax(115px, 1fr) auto; align-items: baseline; gap: 7px; min-height: 22px; }
+.ability-expansion b { color: #56c9d8; font-size: 9px; letter-spacing: .04em; }
+.ability-expansion.enemy b { color: #d5a35d; }
+.ability-expansion span { color: #b9c8d3; font-size: 11px; font-weight: 700; }
+.ability-expansion strong { color: #e6edf2; font-size: 11px; text-align: right; white-space: nowrap; }
+.ability-expansion strong small { color: #a58b6d; font-size: 8px; font-weight: 700; text-transform: uppercase; }
+.variants { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 2px 7px; }
+.variants small { white-space: nowrap; color: inherit; font-size: 12px; }
+.variants b { color: #7f98ab; font-size: 9px; margin-right: 2px; }
+.enemy-value .variants b { color: #bf8f54; }
+.your-cooldowns { display: flex; align-items: center; justify-content: flex-end; gap: 14px; min-height: 35px; margin-top: 5px; padding: 0 12px; border: 1px solid #183147; border-radius: 5px; background: #0b1b29; font-variant-numeric: tabular-nums; }
+.your-cooldowns > strong { margin-right: auto; color: #56c9d8; font-size: 9px; letter-spacing: .12em; }
+.your-cooldowns span { color: #d7e2e9; font-size: 12px; white-space: nowrap; }
+.your-cooldowns b { margin-right: 4px; color: #8199ac; font-size: 9px; }
+.your-cooldowns em { margin-right: 4px; color: #bf8f54; font-size: 7px; font-style: normal; letter-spacing: .04em; }
+.my-ranges-hidden .stat-head, .my-ranges-hidden .stat-row { grid-template-columns: .65fr 0 1fr 1.45fr; }
+.my-ranges-hidden .my-range { visibility: hidden; overflow: hidden; }
+.my-ranges-hidden .form-tabs.you { display: none; }
+.my-ranges-hidden .ability-expansion.you { display: none; }
+.forms { display: flex; justify-content: space-between; gap: 12px; min-height: 0; margin: -3px 0 8px; }
+.form-tabs { display: flex; align-items: center; gap: 3px; }
+.form-tabs.enemy { margin-left: auto; }
+.form-tabs > span { color: #526d85; font-size: 8px; font-weight: 800; margin-right: 2px; }
+.form-tab { width: auto; margin: 0; padding: 3px 6px; border: 1px solid #20394e; color: #71899d; font-size: 9px; }
+.form-tab.active { border-color: #4cb8c8; background: #123344; color: #bcebf0; }
 .stat-row .enemy-value { color: #ffcb72; font-size: 19px; font-weight: 750; }
 .stat-row .cd-value { color: #d7e2e9; font-size: 13px; white-space: nowrap; }
 .aa { background: #0e2030; border-radius: 5px; border: 0; }
@@ -41,6 +76,7 @@ button:hover { color: #b8c9d6; }
   main { padding-left: 22px; padding-right: 22px; }
   .stat-row .enemy-value { font-size: 17px; }
   .stat-row .cd-value { font-size: 11px; }
+  .your-cooldowns { gap: 8px; }
 }
 @media (max-height: 560px) {
   main { padding-top: 17px; padding-bottom: 12px; }

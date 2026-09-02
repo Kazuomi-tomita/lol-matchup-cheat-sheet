@@ -15,7 +15,22 @@
       ],
       "castTime": "none",
       "collision": null,
-      "targetType": "auto"
+      "targetType": "auto",
+      "type": "compound",
+      "variants": [
+        {
+          "label": "QQ",
+          "range": 800
+        },
+        {
+          "label": "QW",
+          "range": 1900
+        },
+        {
+          "label": "QE",
+          "range": 1200
+        }
+      ]
     },
     "W": {
       "name": "Subject: Serenity",
@@ -29,7 +44,22 @@
       ],
       "castTime": "none",
       "collision": null,
-      "targetType": "auto"
+      "targetType": "auto",
+      "type": "compound",
+      "variants": [
+        {
+          "label": "WQ",
+          "range": 1200
+        },
+        {
+          "label": "WW",
+          "range": 650
+        },
+        {
+          "label": "WE",
+          "range": "AA"
+        }
+      ]
     },
     "E": {
       "name": "Subject: Torment",
@@ -43,7 +73,22 @@
       ],
       "castTime": "none",
       "collision": null,
-      "targetType": "auto"
+      "targetType": "auto",
+      "type": "compound",
+      "variants": [
+        {
+          "label": "EQ",
+          "range": 1100
+        },
+        {
+          "label": "EW",
+          "range": 900
+        },
+        {
+          "label": "EE",
+          "range": 800
+        }
+      ]
     },
     "R": {
       "name": "Spiraling Despair",
@@ -65,5 +110,5 @@
   },
   "source": "https://wiki.leagueoflegends.com/en-us/Hwei",
   "patch": "current",
-  "retrievedAt": "2026-08-30"
+  "retrievedAt": "2026-09-02"
 }

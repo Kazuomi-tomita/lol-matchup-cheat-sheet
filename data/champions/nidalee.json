@@ -50,7 +50,61 @@
       "targetType": "auto"
     }
   },
+  "forms": [
+    {
+      "id": "human",
+      "label": "HUMAN",
+      "attackRange": 525,
+      "spells": {}
+    },
+    {
+      "id": "cougar",
+      "label": "COUGAR",
+      "attackRange": 125,
+      "spells": {
+        "Q": {
+          "name": "Takedown",
+          "range": 200,
+          "cooldown": [
+            6
+          ]
+        },
+        "W": {
+          "name": "Pounce",
+          "range": 375,
+          "cooldown": [
+            6
+          ],
+          "type": "derived",
+          "variants": [
+            {
+              "label": "W",
+              "range": 375
+            },
+            {
+              "label": "HUNT",
+              "range": 750
+            }
+          ]
+        },
+        "E": {
+          "name": "Swipe",
+          "range": 310,
+          "cooldown": [
+            6
+          ]
+        },
+        "R": {
+          "name": "Aspect of the Cougar",
+          "range": null,
+          "cooldown": [
+            3
+          ]
+        }
+      }
+    }
+  ],
   "source": "https://wiki.leagueoflegends.com/en-us/Nidalee",
   "patch": "current",
-  "retrievedAt": "2026-08-30"
+  "retrievedAt": "2026-09-02"
 }

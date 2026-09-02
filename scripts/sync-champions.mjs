@@ -75,14 +75,40 @@ function parseRoster(lua) {
     const apiName = block.match(/\["apiname"\]\s*=\s*"([^"]+)"/)?.[1];
     const attackRange = Number(block.match(/\["range"\]\s*=\s*([\d.]+)/)?.[1]);
     const skills = {};
+    const skillVariants = {};
     for (const slot of ["q", "w", "e", "r"]) {
-      const skill = block.match(new RegExp(`\\["skill_${slot}"\\]\\s*=\\s*\\{\\[1\\]\\s*=\\s*"([^"]+)"`))?.[1];
-      if (skill) skills[slot.toUpperCase()] = skill;
+      const tableStart = block.search(new RegExp(`\\["skill_${slot}"\\]\\s*=\\s*\\{`));
+      if (tableStart < 0) continue;
+      const braceStart = block.indexOf("{", tableStart);
+      const skillTable = balancedBlock(block, braceStart);
+      const names = [...skillTable.matchAll(/\[\d+\]\s*=\s*"([^"]+)"/g)].map((entry) => entry[1]);
+      if (!names.length) continue;
+      const key = slot.toUpperCase();
+      skills[key] = names[0];
+      skillVariants[key] = names;
     }
-    if (apiName && Number.isFinite(attackRange) && Object.keys(skills).length === 4) champions.push({ name, apiName, attackRange, skills });
+    if (apiName && Number.isFinite(attackRange) && Object.keys(skills).length === 4) {
+      champions.push({ name, apiName, attackRange, skills, skillVariants });
+    }
   }
   return champions;
 }
+
+const SPECIAL_PRESENTATION = {
+  aphelios: {
+    qVariants: [
+      { label: "CAL", name: "Moonshot" },
+      { label: "SEV", name: "Onslaught" },
+      { label: "GRA", name: "Binding Eclipse", note: "special" },
+      { label: "INF", name: "Duskwave" },
+      { label: "CRE", name: "Sentry" }
+    ],
+    utility: {
+      W: { name: "Phase", displayName: "Weapon Swap" },
+      E: { name: "Weapon Queue System", displayName: "Weapon Queue" }
+    }
+  }
+};
 
 function fieldsFromTemplate(text) {
   const fields = {};
@@ -192,19 +218,59 @@ async function main() {
   const retrievedAt = new Date().toISOString().slice(0, 10);
   let completed = 0;
   for (const champion of roster) {
+    const outputPath = path.join(OUT_DIR, `${slug(champion.name)}.json`);
+    let existing;
+    try { existing = JSON.parse(await fs.readFile(outputPath, "utf8")); }
+    catch { existing = undefined; }
     const spells = {};
     for (const [slot, ability] of Object.entries(champion.skills)) {
       const cache = `${slug(champion.name)}-${slot.toLowerCase()}.wiki`;
       const raw = await fetchRaw(`Template:Data ${champion.name}/${ability}`, cache, refresh);
       spells[slot] = abilityData(ability, fieldsFromTemplate(raw));
     }
+    const presentation = SPECIAL_PRESENTATION[slug(champion.name)];
+    if (presentation?.qVariants) {
+      const availableQNames = new Set(champion.skillVariants.Q.slice(1));
+      const variants = [];
+      for (const variant of presentation.qVariants) {
+        if (!availableQNames.has(variant.name)) {
+          throw new Error(`${champion.name} Q variant not found in roster: ${variant.name}`);
+        }
+        const cache = `${slug(champion.name)}-q-${slug(variant.name)}.wiki`;
+        const raw = await fetchRaw(`Template:Data ${champion.name}/${variant.name}`, cache, refresh);
+        const data = abilityData(variant.name, fieldsFromTemplate(raw));
+        variants.push({ label: variant.label, name: variant.name, range: data.range, ...(variant.note ? { note: variant.note } : {}) });
+      }
+      spells.Q.type = "compound";
+      spells.Q.expandable = true;
+      spells.Q.displayName = `${variants.length} weapon abilities`;
+      spells.Q.variants = variants;
+    }
+    for (const [slot, utility] of Object.entries(presentation?.utility ?? {})) {
+      if (spells[slot].name !== utility.name) {
+        throw new Error(`${champion.name} ${slot} utility ability mismatch: ${spells[slot].name}`);
+      }
+      spells[slot].type = "utility";
+      spells[slot].displayName = utility.displayName;
+      spells[slot].range = null;
+    }
+    // Keep the small hand-authored presentation layer while refreshing the
+    // objective spell data. A sync must not erase forms or compact variants.
+    for (const [slot, spell] of Object.entries(spells)) {
+      const special = existing?.spells?.[slot];
+      if (!special?.type) continue;
+      spell.type = special.type;
+      if (special.variants) spell.variants = special.variants;
+      if (special.type === "variable" && typeof special.range === "object") spell.range = special.range;
+    }
     const output = {
       id: slug(champion.name), name: champion.name,
       ...(champion.apiName !== champion.name ? { aliases: [champion.apiName] } : {}),
       attackRange: champion.attackRange, spells,
+      ...(existing?.forms ? { forms: existing.forms } : {}),
       source: `${WIKI}/${encodeURIComponent(champion.name)}`, patch: "current", retrievedAt
     };
-    await fs.writeFile(path.join(OUT_DIR, `${output.id}.json`), `${JSON.stringify(output, null, 2)}\n`, "utf8");
+    await fs.writeFile(outputPath, `${JSON.stringify(output, null, 2)}\n`, "utf8");
     completed += 1;
     process.stdout.write(`\rSynced ${completed}/${roster.length}: ${champion.name}                    `);
   }

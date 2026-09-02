@@ -1,0 +1,80 @@
+{
+  "id": "aphelios",
+  "name": "Aphelios",
+  "attackRange": 550,
+  "spells": {
+    "Q": {
+      "name": "Weapons of the Faithful",
+      "range": null,
+      "collision": null,
+      "targetType": "n/a",
+      "type": "compound",
+      "expandable": true,
+      "displayName": "5 weapon abilities",
+      "variants": [
+        {
+          "label": "CAL",
+          "name": "Moonshot",
+          "range": "1450"
+        },
+        {
+          "label": "SEV",
+          "name": "Onslaught",
+          "range": null
+        },
+        {
+          "label": "GRA",
+          "name": "Binding Eclipse",
+          "range": null,
+          "note": "special"
+        },
+        {
+          "label": "INF",
+          "name": "Duskwave",
+          "range": "650"
+        },
+        {
+          "label": "CRE",
+          "name": "Sentry",
+          "range": "475"
+        }
+      ]
+    },
+    "W": {
+      "name": "Phase",
+      "range": null,
+      "castTime": "None",
+      "collision": null,
+      "targetType": "auto",
+      "type": "utility",
+      "displayName": "Weapon Swap"
+    },
+    "E": {
+      "name": "Weapon Queue System",
+      "range": null,
+      "collision": null,
+      "targetType": "auto",
+      "type": "utility",
+      "displayName": "Weapon Queue"
+    },
+    "R": {
+      "name": "Moonlight Vigil",
+      "range": "1300",
+      "cooldown": [
+        120,
+        115,
+        110,
+        105,
+        100
+      ],
+      "radius": 300,
+      "castTime": 0.6,
+      "projectileSpeed": 1000,
+      "collision": null,
+      "targetType": "direction"
+    }
+  },
+  "source": "https://wiki.leagueoflegends.com/en-us/Aphelios",
+  "patch": "current",
+  "retrievedAt": "2026-09-02"
+}

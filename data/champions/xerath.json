@@ -5,7 +5,10 @@
   "spells": {
     "Q": {
       "name": "Arcanopulse",
-      "range": "700 – 1450",
+      "range": {
+        "min": 700,
+        "max": 1450
+      },
       "cooldown": [
         9,
         8,
@@ -16,7 +19,8 @@
       "width": 145,
       "castTime": "none",
       "collision": null,
-      "targetType": "[[auto-targeted|auto]] / [[direction-targeted|direction]]"
+      "targetType": "[[auto-targeted|auto]] / [[direction-targeted|direction]]",
+      "type": "variable"
     },
     "W": {
       "name": "Eye of Destruction",
@@ -67,5 +71,5 @@
   },
   "source": "https://wiki.leagueoflegends.com/en-us/Xerath",
   "patch": "current",
-  "retrievedAt": "2026-08-30"
+  "retrievedAt": "2026-09-02"
 }
