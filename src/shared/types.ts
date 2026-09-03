@@ -64,8 +64,17 @@ export interface MatchupState {
   message?: string;
 }
 
+export interface UpdateInfo {
+  currentVersion: string;
+  latestVersion: string;
+  releaseUrl: string;
+}
+
 export interface ViewerApi {
   getState(): Promise<MatchupState>;
   selectEnemy(championId: string): Promise<MatchupState>;
   onStateChanged(callback: (state: MatchupState) => void): () => void;
+  getUpdate(): Promise<UpdateInfo | null>;
+  openUpdatePage(): Promise<void>;
+  onUpdateAvailable(callback: (update: UpdateInfo) => void): () => void;
 }

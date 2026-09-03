@@ -1,5 +1,5 @@
 import "./style.css";
-import type { ChampionData, MatchupState, SpellData, SpellSlot, VariableRange } from "../shared/types";
+import type { ChampionData, MatchupState, SpellData, SpellSlot, UpdateInfo, VariableRange } from "../shared/types";
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
 const slots: SpellSlot[] = ["Q", "W", "E", "R"];
@@ -11,6 +11,7 @@ const selectedForms = new Map<string, string>();
 const expandedAbilities = new Set<string>();
 const showMyRangesKey = "showMyRanges";
 let showMyRanges = localStorage.getItem(showMyRangesKey) === "true";
+let availableUpdate: UpdateInfo | null = null;
 const legalNotice = `<footer class="legal-notice">LoL Matchup Viewer isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</footer>`;
 
 function activeForm(champion: ChampionData) {
@@ -110,5 +111,27 @@ function render(state: MatchupState): void {
   document.querySelector("#change-enemy")?.addEventListener("click", () => render({ ...state, status: "manual", enemy: undefined, message: "敵チャンピオンを選択してください" }));
 }
 
-void window.viewer.getState().then(render);
-window.viewer.onStateChanged(render);
+function renderUpdateNotice(update: UpdateInfo | null): void {
+  document.querySelector(".update-notice")?.remove();
+  if (!update) return;
+  const notice = document.createElement("aside");
+  notice.className = "update-notice";
+  notice.innerHTML = `<div><strong>新しいバージョンがあります</strong><span>現在 ${escapeHtml(update.currentVersion)} / 最新 ${escapeHtml(update.latestVersion)}</span></div><button type="button">更新ページを開く</button>`;
+  notice.querySelector("button")?.addEventListener("click", () => void window.viewer.openUpdatePage());
+  document.body.prepend(notice);
+}
+
+const renderWithUpdate = (state: MatchupState): void => {
+  render(state);
+  renderUpdateNotice(availableUpdate);
+};
+
+void Promise.all([window.viewer.getState(), window.viewer.getUpdate()]).then(([state, update]) => {
+  availableUpdate = update;
+  renderWithUpdate(state);
+});
+window.viewer.onStateChanged(renderWithUpdate);
+window.viewer.onUpdateAvailable((update) => {
+  availableUpdate = update;
+  renderUpdateNotice(update);
+});

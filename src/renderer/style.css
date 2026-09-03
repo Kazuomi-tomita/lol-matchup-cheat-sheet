@@ -1,6 +1,11 @@
 :root { color-scheme: dark; font-family: Inter, "Segoe UI", sans-serif; background: #08111d; color: #eaf1f7; font-synthesis: none; }
 * { box-sizing: border-box; }
 body { margin: 0; min-height: 100vh; background: radial-gradient(circle at 85% 0%, #173756 0, transparent 35%), #08111d; }
+.update-notice { display: flex; align-items: center; justify-content: space-between; gap: 14px; width: min(calc(100% - 28px), 592px); margin: 14px auto 0; padding: 11px 14px; border: 1px solid #80682d; border-radius: 6px; background: #211d12; box-shadow: 0 8px 24px rgba(0, 0, 0, .22); }
+.update-notice div { display: flex; min-width: 0; flex-direction: column; gap: 3px; }
+.update-notice strong { color: #f2d17b; font-size: 13px; }
+.update-notice span { color: #a99c7b; font-size: 10px; font-variant-numeric: tabular-nums; }
+.update-notice button { width: auto; flex: 0 0 auto; padding: 7px 10px; border-color: #80682d; background: #302817; color: #f2d17b; }
 main { width: min(100%, 620px); margin: auto; padding: 24px 34px 20px; }
 header { border-bottom: 1px solid #20354a; padding-bottom: 15px; margin-bottom: 18px; }
 .eyebrow { color: #56c9d8; font-size: 11px; font-weight: 800; letter-spacing: .2em; }

@@ -1,13 +1,16 @@
-import { app, BrowserWindow, ipcMain } from "electron";
+import { app, BrowserWindow, ipcMain, shell } from "electron";
 import path from "node:path";
 import { DataStore } from "./data-store";
 import { detectMatchup } from "./live-client";
 import type { MatchupState } from "../shared/types";
+import type { UpdateInfo } from "../shared/types";
+import { checkForUpdate } from "./update-checker";
 
 const store = new DataStore();
 let window: BrowserWindow | null = null;
 let state: MatchupState = { status: "waiting", candidates: [] };
 let lastFingerprint = "";
+let availableUpdate: UpdateInfo | null = null;
 
 function publish(next: MatchupState): void {
   state = next;
@@ -85,7 +88,19 @@ app.whenReady().then(() => {
     publish({ ...state, status: "manual", enemy, enemyMeta: store.meta(enemy.id) });
     return state;
   });
+  ipcMain.handle("update:get", () => availableUpdate);
+  ipcMain.handle("update:open", async () => {
+    if (availableUpdate) await shell.openExternal(availableUpdate.releaseUrl);
+  });
   createWindow();
+  void checkForUpdate({
+    currentVersion: app.getVersion(),
+    cacheDirectory: app.getPath("userData"),
+    repository: "KernelCrafT-JP1/lol-matchup-cheat-sheet"
+  }).then((update) => {
+    availableUpdate = update;
+    if (update) window?.webContents.send("update:available", update);
+  });
   void poll();
   setInterval(() => void poll(), 2000);
   app.on("activate", () => { if (BrowserWindow.getAllWindows().length === 0) createWindow(); });
